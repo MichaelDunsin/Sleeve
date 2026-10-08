@@ -1,0 +1,1706 @@
+{
+  "site": {
+    "title": "Sleeve",
+    "tagline": "Fifty years of Nigerian sound, judged by its cover.",
+    "intro": "A scrolling history of Nigerian music told through its album art. Each decade redraws the page in its own colours, lettering and texture, and every sleeve names the person who made it, where that name is known.",
+    "terms": [
+      {
+        "term": "Afrobeat",
+        "note": "no s",
+        "text": "The genre Fela Kuti and Africa 70 built in Lagos in the 1970s: long band arrangements of highlife, jazz and funk, sung in Pidgin and aimed at the government."
+      },
+      {
+        "term": "Afrobeats",
+        "note": "with an s",
+        "text": "The umbrella term, in use from the 2000s on, for contemporary Nigerian and West African pop. It covers many styles and is not a continuation of Fela's band music, though it often quotes it."
+      }
+    ],
+    "designersIntro": "Musicians get the royalties and the documentaries. The people who painted, photographed and laid out the covers were often credited in small type, or not at all. This section profiles only makers whose covers a published source names. Everyone else waits in a research list until their credits are checked.",
+    "closing": {
+      "title": "How the look went global",
+      "paragraphs": [
+        "For most of these fifty years a Nigerian record sleeve was made for a Nigerian shop. It was painted in Lagos, printed in Lagos, and sold from a stall to someone who already knew the artist's name. The look answered local needs: be seen across a market, say what the record is about, show the bandleader in his best cloth.",
+        "The CD years and then the download blogs shrank the sleeve and sped it up. Streaming finished the job. The cover became a small square on a phone, shown beside music from everywhere, and Nigerian artists began to commission it accordingly, with photographers, illustrators, sculptors and 3D artists from Lagos and far beyond.",
+        "What travelled was not one style. It was a habit that goes back to Kalakuta: treat the cover as part of the argument. The painted crowd of 1974 and the quiet figure of 2024 do the same work. They tell you where the music stands before you have heard a note. The makers of those images deserve to be named, and this site keeps a place for each of them."
+      ]
+    },
+    "colophon": "Every sleeve shown here is a typeset placeholder. No original album artwork is reproduced; each sleeve's detail view links to a page where the original cover can be seen. Details marked VERIFY have not been confirmed against a source."
+  },
+  "eras": [
+    {
+      "id": "afrobeat-70s",
+      "anchor": "1970s",
+      "side": "A",
+      "decade": "70",
+      "title": "Afrobeat and the Revolution",
+      "years": "1970–1979",
+      "startYear": 1970,
+      "endYear": 1980,
+      "status": "complete",
+      "blurb": "Fela Kuti, Africa 70, and the hand-painted, political, psychedelic covers of the artist Lemi Ghariokwu.",
+      "essay": [
+        "Nigeria entered the 1970s with a civil war just ended and oil money arriving. The war closed in January 1970; after the 1973 price shock, crude revenue poured into a state run by soldiers. Lagos swelled, its traffic locked, and the distance between the people in government cars and the people on the bus became the decade's subject.",
+        "Fela Ransome-Kuti turned that distance into music. With Tony Allen on drums and the band he renamed Africa 70, he stretched highlife, jazz and funk into long, hard grooves, sung in Pidgin so that the whole country could follow the argument. He called it Afrobeat. His Lagos compound, the Kalakuta Republic, was home, commune and rehearsal room, and the police raided it again and again.",
+        "The covers had to carry that argument to people who had not yet heard the record. From 1974 a self-taught Lagos artist still in his teens, Lemi Ghariokwu, began making them: crowded scenes with caricatured policemen and soldiers, slogans lettered by hand, colour laid on thick. He worked from the lyrics and from life inside Kalakuta. Other sleeves used press photographs, cut and pasted like a newspaper front page. Either way the sleeve read as a poster first and as packaging second.",
+        "The state answered. General Murtala Mohammed was assassinated in February 1976 and Olusegun Obasanjo took over. In early 1977 Lagos hosted FESTAC, a festival of Black arts paid for with oil money. Fela resigned from its organising committee, refused to play, and railed against it nightly at the Shrine. Six days after it closed, about a thousand soldiers attacked Kalakuta and burned it. His mother, Funmilayo Ransome-Kuti, was thrown from a window and later died of her injuries. The records that followed, and their covers, are the angriest of the decade."
+      ],
+      "theme": {
+        "tokens": {
+          "--era-bg": "#D98E04",
+          "--era-fg": "#2B1A10",
+          "--era-accent-1": "#7A1F0B",
+          "--era-accent-2": "#3A4712",
+          "--era-on-accent": "#F2E6C9",
+          "--era-panel": "#F2E6C9",
+          "--era-on-panel": "#2B1A10",
+          "--era-display-font": "\"Luckiest Guy\", \"Arial Black\", Impact, sans-serif",
+          "--era-texture": "radial-gradient(rgba(43,26,16,0.11) 1px, rgba(43,26,16,0) 1.6px)",
+          "--era-texture-size": "6px 6px",
+          "--era-grain": 0.12
+        }
+      },
+      "featuredSleeveId": "alagbon-close",
+      "spotlight": [
+        {
+          "heading": "Who made it",
+          "text": "Lemi Ghariokwu, then eighteen, a few months after he first met Fela. It was his first Fela sleeve, and the original pressing credits the front cover to S. E. Lemy. He built it as a collage: he cut the figure of Fela out of his own earlier artwork for Roforofo Fight and pasted it into a new painted scene."
+        },
+        {
+          "heading": "What it shows",
+          "text": "Fela dances on top of the police. A whale capsizes a police boat. The Kalakuta Republic stands on solid rock while a jailhouse burns. Ghariokwu's own reading: the victory of good over evil, with nature taking Fela's side. Alagbon Close is the Lagos headquarters of the Criminal Investigation Department, where Fela had been held for three days earlier that year."
+        },
+        {
+          "heading": "Why it matters",
+          "text": "It set the terms for the rest of the decade. The sleeve does not illustrate the band; it argues the song's case in public, as a mural or a political cartoon would. Ghariokwu went on to make 26 covers for Fela."
+        }
+      ],
+      "designDNA": {
+        "colours": [
+          {
+            "name": "Ochre",
+            "hex": "#D98E04"
+          },
+          {
+            "name": "Burnt red",
+            "hex": "#A63A1E"
+          },
+          {
+            "name": "Olive",
+            "hex": "#5C6B2E"
+          },
+          {
+            "name": "Cream",
+            "hex": "#F2E6C9"
+          },
+          {
+            "name": "Deep brown",
+            "hex": "#2B1A10"
+          }
+        ],
+        "fonts": [
+          {
+            "role": "Display",
+            "family": "Luckiest Guy",
+            "sample": "NO AGREEMENT",
+            "note": "Chunky caps with a painted feel, set a degree or two off the baseline."
+          },
+          {
+            "role": "Label printing",
+            "family": "JetBrains Mono",
+            "sample": "SIDE A · 33⅓ RPM · MADE IN NIGERIA",
+            "note": "Years, catalogue numbers and credits."
+          }
+        ],
+        "motifs": [
+          "Crowded painted scenes read like a comic panel",
+          "Hand-lettered slogans and titles",
+          "Caricatured uniforms: police, soldiers, officials",
+          "Press photographs cut and pasted as collage",
+          "Flat colour laid thick, brush marks left in",
+          "Litho halftone and rough paper stock"
+        ]
+      }
+    },
+    {
+      "id": "juju-80s",
+      "anchor": "1980s",
+      "side": "B",
+      "decade": "80",
+      "title": "Jùjú, Fújì and Highlife",
+      "years": "1980–1989",
+      "startYear": 1980,
+      "endYear": 1990,
+      "status": "complete",
+      "blurb": "King Sunny Adé, Ebenezer Obey, Sikiru Ayinde Barrister, Oliver De Coque.",
+      "essay": [
+        "The oil money ran out early in the decade. Crude prices fell from 1981, the civilian government of Shehu Shagari answered with austerity measures in 1982, and the soldiers returned on the last day of 1983. Under Ibrahim Babangida the Structural Adjustment Programme of 1986 cut the value of the naira sharply. Imported vinyl, studio equipment and instruments became expensive, and the cheap, easily copied cassette began to replace the LP.",
+        "Music stayed at the centre of social life, paid for at the party as much as at the record shop. Jùjú, the Yoruba guitar-band music of King Sunny Adé and Ebenezer Obey, was at its height: talking drums, pedal steel, layered guitars, and long praise songs for the hosts and patrons who pressed banknotes on the band. In 1982 Island Records signed Adé and released Juju Music abroad. Synchro System, a year later, brought the first Grammy nomination for a Nigerian artist.",
+        "Fújì grew alongside it. Sikiru Ayinde Barrister had built it from the wéré songs that wake Muslims before dawn in Ramadan, joined to apala and sakara: voices and percussion, no guitars. By the end of the 1980s jùjú had lost ground to other styles, while Barrister was touring Europe and the United States with his. In the east, Igbo highlife carried on through Osita Osadebe and Oliver De Coque, whose guitar lines borrowed from Congolese music.",
+        "The sleeves put the bandleader first. Most were studio portraits, often taken by the record company itself: the leader in lace or agbada, a guitar or a chief's cap to mark his standing, a painted or draped backdrop behind him, the flash still visible on his skin. Titles came in heavy outlined lettering, often with a volume number, because fans collected a band's releases as a series. Where the 1970s sleeve argued, the 1980s sleeve presented: here is the man, his rank and his newest record. Its makers appear in small print, if at all: an artwork credit for Biodun Sowunmi, a photo studio, or only the printing house, Ibukunola Printers of Lagos, which designed sleeves as well as printing them."
+      ],
+      "theme": {
+        "tokens": {
+          "--era-bg": "#4B2A6B",
+          "--era-fg": "#F5E9D3",
+          "--era-accent-1": "#E0B02E",
+          "--era-accent-2": "#7FD0D8",
+          "--era-on-accent": "#2A1540",
+          "--era-panel": "#F5E9D3",
+          "--era-on-panel": "#2A1540",
+          "--era-display-font": "\"Alfa Slab One\", Rockwell, \"Courier New\", serif",
+          "--era-texture": "radial-gradient(ellipse at 50% 30%, rgba(31,111,120,0.55), rgba(31,111,120,0) 65%)",
+          "--era-texture-size": "auto",
+          "--era-grain": 0.16
+        }
+      },
+      "featuredSleeveId": "juju-music",
+      "designDNA": {
+        "colours": [
+          {
+            "name": "Gold",
+            "hex": "#D4A017"
+          },
+          {
+            "name": "Royal purple",
+            "hex": "#4B2A6B"
+          },
+          {
+            "name": "Studio-backdrop teal",
+            "hex": "#1F6F78"
+          },
+          {
+            "name": "Warm cream",
+            "hex": "#F5E9D3"
+          }
+        ],
+        "fonts": [
+          {
+            "role": "Display",
+            "family": "Alfa Slab One",
+            "sample": "Jùjú Music",
+            "note": "Heavy slab, usually outlined or given a hard drop shadow."
+          },
+          {
+            "role": "Label printing",
+            "family": "JetBrains Mono",
+            "sample": "SIDE B · STEREO · VOL. 4",
+            "note": "Years, catalogue numbers and credits."
+          }
+        ],
+        "motifs": [
+          "Studio portraits against painted or draped backdrops",
+          "Bandleader front and centre, band in matching cloth",
+          "Gold lamé shimmer, lace, agbada embroidery",
+          "Outlined and drop-shadowed title lettering",
+          "On-camera flash and its grain",
+          "Volume numbers and honorific titles on the sleeve"
+        ]
+      },
+      "spotlight": [
+        {
+          "heading": "Who made it",
+          "text": "The cover design is credited to Bruno Tilley, who also designed Synchro System the following year. No photographer or illustrator is listed in the credits checked."
+        },
+        {
+          "heading": "What it shows",
+          "text": "The sleeve itself could not be checked for this build, so it is not described here. What can be said is what it was for. In Nigeria the album came out on Adé's own Sunny Alade label, in a catalogue of numbered volumes made for fans who already knew him. The Island edition was packaged in Britain for record shops abroad, for listeners who had never heard the word."
+        },
+        {
+          "heading": "Why it matters",
+          "text": "It is the first of three albums Adé made for Island between 1982 and 1984, and the moment a Lagos bandleader's image was redesigned for export. The next album, Synchro System, earned the first Grammy nomination for a Nigerian artist. Island and Adé parted after Aura in 1984, and he went back to making records for the home market."
+        }
+      ]
+    },
+    {
+      "id": "cd-00s",
+      "anchor": "2000s",
+      "side": "C",
+      "decade": "00",
+      "title": "Naija Hip-Hop and the CD Era",
+      "years": "Late 1990s–2009",
+      "startYear": 1998,
+      "endYear": 2010,
+      "status": "complete",
+      "blurb": "2face Idibia, P-Square, D'banj, Don Jazzy and Mo'Hits, Styl-Plus.",
+      "essay": [
+        "General Sani Abacha died in June 1998, and on 29 May 1999 Nigeria returned to civilian rule under Olusegun Obasanjo. The music business that greeted democracy was being rebuilt by local independents. They had private radio, on air since Raypower FM launched in Lagos in 1994, a generation raised on American hip-hop and R&B, and a market in Lagos called Alaba.",
+        "Alaba International Market was the country's largest electronics bazaar, and it became the record industry. Under what came to be called the Alaba model, informal distributors there paid an artist a one-off price for the right to copy and sell an album, and that arrangement ruled the trade until the early 2010s. Nollywood sold its video films from the same stalls. An album succeeded when Alaba pushed it, and its cover had to work on a crowded table beside hundreds of others.",
+        "Kennis Music, founded in 1998, put out Eedris Abdulkareem and then 2face Idibia. Plantashun Boiz and Styl-Plus sang R&B in English, Pidgin and Yoruba. P-Square built an arena act and their own label. Don Jazzy and D'banj founded Mo' Hits in 2004. That year Abdulkareem's Jaga Jaga, a complaint about corruption and bad government, was banned from radio by the president. In 2005 2face won Best African Act at the MTV Europe Music Awards.",
+        "The covers were made on desktop computers, and they show it with pride. The artist is cut out of a studio photograph and set into a collage: a composited skyline, a burst of light, a bank of cloud. Titles are chrome, bevelled, glowing, outlined twice. Label logos, booking phone numbers and warnings against piracy crowd the tray card. It was the look of American rap CDs remade in Lagos, loud enough to be seen on the table. Almost none of the people who designed these covers are credited anywhere this build could find."
+      ],
+      "theme": {
+        "tokens": {
+          "--era-bg": "#0A0A0A",
+          "--era-fg": "#FFFFFF",
+          "--era-accent-1": "#5C86FF",
+          "--era-accent-2": "#C0C6CC",
+          "--era-on-accent": "#0A0A0A",
+          "--era-panel": "#C0C6CC",
+          "--era-on-panel": "#0A0A0A",
+          "--era-display-font": "\"Krona One\", \"Arial Black\", sans-serif",
+          "--era-texture": "linear-gradient(120deg, rgba(30,91,255,0.35), rgba(30,91,255,0) 35%, rgba(255,255,255,0.10) 62%, rgba(255,255,255,0) 70%)",
+          "--era-texture-size": "auto",
+          "--era-grain": 0.0
+        }
+      },
+      "featuredSleeveId": "face-2-face",
+      "designDNA": {
+        "colours": [
+          {
+            "name": "Chrome silver",
+            "hex": "#C0C6CC"
+          },
+          {
+            "name": "Electric blue",
+            "hex": "#1E5BFF"
+          },
+          {
+            "name": "Black",
+            "hex": "#0A0A0A"
+          },
+          {
+            "name": "White",
+            "hex": "#FFFFFF"
+          }
+        ],
+        "fonts": [
+          {
+            "role": "Display",
+            "family": "Krona One",
+            "sample": "GRASS 2 GRACE",
+            "note": "Wide extended sans, uppercase, filled with a chrome gradient or bevel."
+          },
+          {
+            "role": "Label printing",
+            "family": "JetBrains Mono",
+            "sample": "COMPACT DISC · DIGITAL AUDIO",
+            "note": "Years, catalogue numbers and credits."
+          }
+        ],
+        "motifs": [
+          "Chrome and bevelled lettering",
+          "Lens flare and gradient shine",
+          "Cut-out artist photos over composited skylines",
+          "Early-Photoshop layering, glows and outer strokes",
+          "Jewel-case spine and tray card as part of the design",
+          "Parental-advisory-style stickers and label logos"
+        ]
+      },
+      "spotlight": [
+        {
+          "heading": "Who made it",
+          "text": "Credit to be confirmed. Kennis Music's main cover designer in these years is reported to have been Lemi Ghariokwu, the painter of the Fela sleeves, but no source checked ties him to this cover, so the credit stays open."
+        },
+        {
+          "heading": "What it shows",
+          "text": "The sleeve itself could not be checked for this build, so it is not described here. The title does part of the work: Face 2 Face plays on the singer's name and promises the solo artist in person, after years in the group Plantashun Boiz."
+        },
+        {
+          "heading": "Why it matters",
+          "text": "It is the solo debut that carried African Queen, and it moved Nigerian pop from the group to the single star. The year after it came out, 2face won Best African Act at the MTV Europe Music Awards. On an Alaba table the face on the cover was the brand, and the proof that the disc was the real one."
+        }
+      ]
+    },
+    {
+      "id": "afrobeats-10s",
+      "anchor": "2010s",
+      "side": "D",
+      "decade": "10",
+      "title": "Afrobeats Rises",
+      "years": "2010–2019",
+      "startYear": 2010,
+      "endYear": 2020,
+      "status": "complete",
+      "blurb": "Wizkid, Davido, Burna Boy, Tiwa Savage, Olamide.",
+      "essay": [
+        "In April 2011 the London DJ Abrantee launched a show on Choice FM and called the West African pop he played Afrobeats. The s matters. Afrobeat is Fela Kuti's band music of the 1970s. Afrobeats is a loose name for the new pop of Lagos and Accra, built from hip-hop, dancehall, R&B and highlife. Fela's children objected to it, and stars such as Burna Boy and Don Jazzy have said they prefer other names. It stuck anyway.",
+        "It stuck because the diaspora carried it. Nigerian and Ghanaian communities in London, and then in Houston, Atlanta and Toronto, filled the clubs and requested the songs. D'banj's Oliver Twist reached number 9 on the UK singles chart in 2012. Drake and Skepta joined a remix of Wizkid's Ojuelegba, and in 2016 One Dance, with Wizkid, went to number 1 in fifteen countries.",
+        "At home the CD was fading. Songs now broke on blogs and download sites, on phones passed from hand to hand, and, after Boomplay launched in Nigeria in 2015, on streaming services. The single replaced the album as the unit that counted, and each single needed its own square artwork and, above all, a video. Directors such as Clarence Peters set the look: saturated colour, choreography, clothes.",
+        "Cover design followed the video and the fashion shoot. The collaged skylines of the CD years gave way to a styled portrait against one flat colour, with little type or none, readable at the size of a thumbnail. Stylists, make-up artists and photographers from Lagos's growing fashion scene became part of a release. Credits improved a little, because photographers now signed their work online, but many covers of the decade still carry no public credit."
+      ],
+      "theme": {
+        "tokens": {
+          "--era-bg": "#FAF7F2",
+          "--era-fg": "#161412",
+          "--era-accent-1": "#C2185B",
+          "--era-accent-2": "#1B7A33",
+          "--era-on-accent": "#FFFFFF",
+          "--era-panel": "#FF7A1A",
+          "--era-on-panel": "#161412",
+          "--era-display-font": "\"Archivo Black\", \"Arial Black\", sans-serif",
+          "--era-texture": "none",
+          "--era-texture-size": "auto",
+          "--era-grain": 0.0
+        }
+      },
+      "featuredSleeveId": "superstar",
+      "designDNA": {
+        "colours": [
+          {
+            "name": "Tangerine",
+            "hex": "#FF7A1A"
+          },
+          {
+            "name": "Grass green",
+            "hex": "#2DB34A"
+          },
+          {
+            "name": "Hot pink",
+            "hex": "#FF3D8B"
+          },
+          {
+            "name": "Off-white",
+            "hex": "#FAF7F2"
+          }
+        ],
+        "fonts": [
+          {
+            "role": "Display",
+            "family": "Archivo Black",
+            "sample": "Superstar",
+            "note": "Confident grotesque, tight, flat, no effects."
+          },
+          {
+            "role": "Label printing",
+            "family": "JetBrains Mono",
+            "sample": "SINGLE · OUT NOW · 3000 × 3000 PX",
+            "note": "Years, catalogue numbers and credits."
+          }
+        ],
+        "motifs": [
+          "Flat colour blocking, one or two hues per cover",
+          "Fashion-editorial portrait, artist styled and centred",
+          "Clean studio light, no texture",
+          "Type kept small or left off for the thumbnail",
+          "Square digital artwork made for blogs and download stores",
+          "Bright streetwear and sunglasses as costume"
+        ]
+      },
+      "spotlight": [
+        {
+          "heading": "Who made it",
+          "text": "The album's listed credits give the artwork to Osa Seven, a Lagos graffiti artist and graphic designer, and the photography to Seyi Charles George."
+        },
+        {
+          "heading": "What it shows",
+          "text": "A very young Wizkid in street clothes, Ray-Ban sunglasses and a green baseball cap, set against a digitally built field of 3D stars."
+        },
+        {
+          "heading": "Why it matters",
+          "text": "It stands exactly between two eras. The cut-out figure and the rendered stars belong to the CD years, but the image is already about clothes, attitude and one face, which is where the decade's covers were heading. It is also the debut of the artist who would take the music furthest abroad."
+        }
+      ]
+    },
+    {
+      "id": "global-20s",
+      "anchor": "2020s",
+      "side": "E",
+      "decade": "20",
+      "title": "Global",
+      "years": "2020–today",
+      "startYear": 2020,
+      "endYear": 2027,
+      "status": "complete",
+      "blurb": "Burna Boy, Wizkid, Rema, Tems, Asake, Ayra Starr, and the amapiano crossover.",
+      "essay": [
+        "The 2020s opened with the country at home. Lockdown in 2020 closed the clubs, and in October the End SARS protests against police brutality filled Nigerian streets and timelines. Albums planned for that autumn arrived into a tense, online, watching world; Wizkid moved Made in Lagos from 15 October to the 30th because of them.",
+        "By then the audience was no longer mainly local. Streaming services and short video put a Lagos release in London, Houston and Johannesburg on the same night. Essence, by Wizkid with Tems, reached number 9 on the Billboard Hot 100 in 2021. Burna Boy's Twice as Tall won the Grammy for Best Global Music Album. Rema's Calm Down climbed to number 3 with a Selena Gomez remix in 2023, and in 2024 the Grammys gave their first award for African music performance.",
+        "The sound absorbed its neighbours. South African amapiano, with its log-drum bass, runs through Asake's records beside fújì phrasing and massed choirs. Tems and Ayra Starr draw on R&B. Afrobeats now names all of it: an umbrella for contemporary Nigerian and West African pop, distinct from Fela's Afrobeat even where it samples him.",
+        "Covers changed with the stage. A sleeve is now a square a few centimetres wide on a phone, seen beside releases from every country, and behind it sits a full campaign: creative directors, stylists, photographers, 3D artists, a film. The loud flat colour of the 2010s gave way to restraint: muted grounds, a single figure, small serif type, grain like cinema film, sometimes a surreal rendered scene. The work is as considered as any major-label rollout anywhere, yet the people who made it are often hard to find in the credits. This chapter leaves those names blank until they are confirmed."
+      ],
+      "theme": {
+        "tokens": {
+          "--era-bg": "#3A3A3D",
+          "--era-fg": "#E8E1D6",
+          "--era-accent-1": "#D7F25C",
+          "--era-accent-2": "#B4C2A8",
+          "--era-on-accent": "#1E1E20",
+          "--era-panel": "#3F4A3A",
+          "--era-on-panel": "#E8E1D6",
+          "--era-display-font": "\"Bodoni Moda\", Didot, \"Bodoni MT\", Georgia, serif",
+          "--era-texture": "radial-gradient(ellipse at 50% 40%, rgba(232,225,214,0.08), rgba(0,0,0,0.25))",
+          "--era-texture-size": "auto",
+          "--era-grain": 0.3
+        }
+      },
+      "featuredSleeveId": "twice-as-tall",
+      "spotlight": [
+        {
+          "heading": "Who made it",
+          "text": "Credit to be confirmed. The artwork was released by Burna Boy with the note that it reflects the energies and emotions he moved through while recording. None of the sources checked for this build names the illustrator, so the credit stays open."
+        },
+        {
+          "heading": "What it shows",
+          "text": "Burna Boy drawn as a giant, seen from below, one foot raised. The album came with a comic book, The Secret Flame, narrated by his grandfather Benson Idonije, who once managed Fela Kuti. The comic follows him on a spiritual journey to the point where he stands tall."
+        },
+        {
+          "heading": "Why it matters",
+          "text": "It joins the two ends of this history. The comic-panel drawing that carried Fela's records in the 1970s returns on a 2020 album made for a worldwide streaming audience, and the grandfather narrating it is a direct line back to Kalakuta. The record won the Grammy for Best Global Music Album."
+        }
+      ],
+      "designDNA": {
+        "colours": [
+          {
+            "name": "Smoke",
+            "hex": "#3A3A3D"
+          },
+          {
+            "name": "Bone",
+            "hex": "#E8E1D6"
+          },
+          {
+            "name": "Deep olive",
+            "hex": "#3F4A3A"
+          },
+          {
+            "name": "Vivid accent (one per cover)",
+            "hex": "#D7F25C"
+          }
+        ],
+        "fonts": [
+          {
+            "role": "Display",
+            "family": "Bodoni Moda",
+            "sample": "Born in the Wild",
+            "note": "High-contrast serif, often italic, set small with wide margins."
+          },
+          {
+            "role": "Label printing",
+            "family": "JetBrains Mono",
+            "sample": "℗ 2024 · ALL TERRITORIES · STREAM",
+            "note": "Years, catalogue numbers and credits."
+          }
+        ],
+        "motifs": [
+          "Muted cinematic palette with a single vivid accent",
+          "One figure, often small in a large empty frame",
+          "Fine-art and film-still photography",
+          "Surreal 3D renders and digital sculpture",
+          "Film grain and soft vignette",
+          "Small, quiet type or no type at all"
+        ]
+      }
+    }
+  ],
+  "sleeves": [
+    {
+      "id": "alagbon-close",
+      "eraId": "afrobeat-70s",
+      "title": "Alagbon Close",
+      "artist": "Fela Ransome-Kuti and Africa 70",
+      "year": 1974,
+      "label": "Jofabro (JILP 1002)",
+      "designer": "Lemi Ghariokwu (front cover, credited as S. E. Lemy)",
+      "photographer": null,
+      "artNotes": "Ghariokwu's first cover for Fela. A collage and painting: Fela dances over the police, a whale overturns a police boat, Kalakuta stands on rock and a jailhouse burns. The figure of Fela was cut from Ghariokwu's earlier Roforofo Fight artwork.",
+      "imagePath": null,
+      "imageCredit": null,
+      "imageStatus": "placeholder",
+      "listenUrl": null,
+      "sources": [
+        "https://www.okayafrica.com/fela-kuti-album-covers-lemi-ghariokwu/",
+        "https://en.wikipedia.org/wiki/Lemi_Ghariokwu",
+        "https://en.wikipedia.org/wiki/Fela_Kuti_discography",
+        "https://www.discogs.com/master/150516-Fela-Ransome-Kuti-Africa-70-Alagbon-Close",
+        "https://felakuti.com/products/111895-alagbon-close-19741975"
+      ],
+      "verify": [],
+      "coverUrl": "https://www.discogs.com/master/150516-Fela-Ransome-Kuti-Africa-70-Alagbon-Close"
+    },
+    {
+      "id": "expensive-shit",
+      "eraId": "afrobeat-70s",
+      "title": "Expensive Shit",
+      "artist": "Fela Ransome-Kuti and Africa 70",
+      "year": 1975,
+      "label": "Soundworkshop Records (SWS 1001)",
+      "designer": "Remi Olowookere (artwork and graphics)",
+      "photographer": "Peter Obe Photo Agency",
+      "artNotes": "A photographic sleeve, not a painted one. The title comes from Fela's 1974 arrest: police tried to plant a joint, he swallowed it, and they held him for three days at Alagbon Close waiting for the evidence. His cellmates switched the bucket and he walked free.",
+      "imagePath": null,
+      "imageCredit": null,
+      "imageStatus": "placeholder",
+      "listenUrl": null,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Expensive_Shit",
+        "https://en.wikipedia.org/wiki/Fela_Kuti_discography",
+        "https://www.discogs.com/master/150519-Fela-Ransome-Kuti-Africa-70-Expensive-Shit",
+        "https://felakuti.com/story/1974"
+      ],
+      "verify": [
+        "Artwork and photography credits come from Wikipedia's personnel list only; the Discogs entries carry no design credit"
+      ],
+      "coverUrl": "https://www.discogs.com/master/150519-Fela-Ransome-Kuti-Africa-70-Expensive-Shit"
+    },
+    {
+      "id": "kalakuta-show",
+      "eraId": "afrobeat-70s",
+      "title": "Kalakuta Show",
+      "artist": "Fela Ransome-Kuti and Africa 70",
+      "year": 1976,
+      "label": "Kalakuta Records (KR 01)",
+      "designer": "Lemi Ghariokwu (front cover, credited as G. Lemmi); graphics by Remi Olowookere",
+      "photographer": "Bankole Osunle (as credited)",
+      "artNotes": "The title track recounts the police raid on the Kalakuta Republic of 23 November 1974. Ghariokwu designed the front cover, Remi Olowookere handled the graphics and the photography is credited to Bankole Osunle.",
+      "imagePath": null,
+      "imageCredit": null,
+      "imageStatus": "placeholder",
+      "listenUrl": null,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Fela_Kuti_discography",
+        "https://en.wikipedia.org/wiki/Lemi_Ghariokwu",
+        "https://www.discogs.com/master/150513-Fela-Africa-70-Kalakuta-Show",
+        "https://www.discogs.com/release/1776379-Fela-Africa-70-Kalakuta-Show",
+        "https://felakuti.com/story/1974"
+      ],
+      "verify": [
+        "Design and photography credits are read from the US Makossa pressing, not the Nigerian one",
+        "Description of the sleeve"
+      ],
+      "coverUrl": "https://www.discogs.com/master/150513-Fela-Africa-70-Kalakuta-Show"
+    },
+    {
+      "id": "ikoyi-blindness",
+      "eraId": "afrobeat-70s",
+      "title": "Ikoyi Blindness",
+      "artist": "Fela Anikulapo-Kuti and Africa 70",
+      "year": 1976,
+      "label": "African Music International (AMI 001)",
+      "designer": "Lemi Ghariokwu (cover design, credited as Ghariokwu Lemmi)",
+      "photographer": null,
+      "artNotes": "Ikoyi is the prosperous Lagos suburb; the song sets its wealth-at-any-cost residents against the poorer districts they do not see. Fela used this cover to announce his change of name: Ransome, which he now called a slave name, is struck through on the front, with Anikulapo written above it.",
+      "imagePath": null,
+      "imageCredit": null,
+      "imageStatus": "placeholder",
+      "listenUrl": null,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Fela_Kuti_discography",
+        "https://en.wikipedia.org/wiki/Lemi_Ghariokwu",
+        "https://www.discogs.com/master/217509-Fela-Anikulapo-Kuti-Afrika-70-Ikoyi-Blindness",
+        "https://www.discogs.com/release/1366133-Fela-Anikulapo-Kuti-Afrika-70-Ikoyi-Blindness",
+        "https://soundsoftheuniverse.com/product/ikoyi-blindness"
+      ],
+      "verify": [],
+      "coverUrl": "https://www.discogs.com/master/217509-Fela-Anikulapo-Kuti-Afrika-70-Ikoyi-Blindness"
+    },
+    {
+      "id": "yellow-fever",
+      "eraId": "afrobeat-70s",
+      "title": "Yellow Fever",
+      "artist": "Fela Anikulapo-Kuti and Africa 70",
+      "year": 1976,
+      "label": "Afrodisia (DWAPS 2004)",
+      "designer": "Lemi Ghariokwu (design)",
+      "photographer": "David Bankole Osunla (as credited)",
+      "artNotes": "An oil painting. The song attacks skin bleaching; Ghariokwu painted a Kalakuta woman, KorKor, with the parts the cream does not reach left dark, and lettered the cream's price onto the cover. He described the approach as minimalist and direct. The sleeve was printed in England by Robert Stace.",
+      "imagePath": null,
+      "imageCredit": null,
+      "imageStatus": "placeholder",
+      "listenUrl": null,
+      "sources": [
+        "https://www.okayafrica.com/fela-kuti-album-covers-lemi-ghariokwu/",
+        "https://en.wikipedia.org/wiki/Fela_Kuti_discography",
+        "https://www.discogs.com/master/113994-Fela-Anikulapo-Kuti-Afrika-70-Yellow-Fever",
+        "https://www.discogs.com/release/1490191-Fela-Anikulapo-Kuti-Afrika-70-Yellow-Fever"
+      ],
+      "verify": [
+        "OkayAfrica dates the cover 1977; the Nigerian pressing and Wikipedia give 1976"
+      ],
+      "coverUrl": "https://www.discogs.com/master/113994-Fela-Anikulapo-Kuti-Afrika-70-Yellow-Fever"
+    },
+    {
+      "id": "zombie",
+      "eraId": "afrobeat-70s",
+      "title": "Zombie",
+      "artist": "Fela Anikulapo-Kuti and Africa 70",
+      "year": 1976,
+      "label": "Coconut (PMLP 1003), made by Phonogram Nigeria; Creole in the UK",
+      "designer": "Lemi Ghariokwu (sleeve design and liner notes)",
+      "photographer": "Tunde Kuboye",
+      "artNotes": "The record that mocked Nigerian soldiers as zombies who march on command. It was a hit with the public and enraged the government; the attack on Kalakuta by about a thousand soldiers followed. Ghariokwu built the sleeve around Tunde Kuboye's photographs and wrote the liner notes himself.",
+      "imagePath": null,
+      "imageCredit": null,
+      "imageStatus": "placeholder",
+      "listenUrl": null,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Zombie_(album)",
+        "https://en.wikipedia.org/wiki/Fela_Kuti_discography",
+        "https://www.itsnicethat.com/features/wuruwuru-album-cover-bank-graphic-design-art-spotlight-220124",
+        "https://www.discogs.com/master/113995-F%E1%BA%B9la-And-Afrika-70-Zombie",
+        "https://www.discogs.com/release/1816011-F%E1%BA%B9la-And-Afrika-70-Zombie"
+      ],
+      "verify": [
+        "Year of the Nigerian first pressing: Wikipedia gives 1976, Discogs lists it as 1977"
+      ],
+      "coverUrl": "https://www.discogs.com/master/113995-F%E1%BA%B9la-And-Afrika-70-Zombie"
+    },
+    {
+      "id": "no-agreement",
+      "eraId": "afrobeat-70s",
+      "title": "No Agreement",
+      "artist": "Fela Anikulapo-Kuti and Africa 70",
+      "year": 1977,
+      "label": "Afrodisia (DWAPS 2039)",
+      "designer": "Lemi Ghariokwu (artwork and design)",
+      "photographer": null,
+      "artNotes": "Fela's refusal, stated as a title: no agreement to keep quiet while people suffer. Art-direction notes for this sleeve are still to be written from a verified source.",
+      "imagePath": null,
+      "imageCredit": null,
+      "imageStatus": "placeholder",
+      "listenUrl": null,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Fela_Kuti_discography",
+        "https://www.discogs.com/master/234156-Fela-An%C3%ADk%C3%BAl%C3%A1p%C3%B3-Kuti-And-Afrika-70-No-Agreement"
+      ],
+      "verify": [
+        "Description of the sleeve"
+      ],
+      "coverUrl": "https://www.discogs.com/master/234156-Fela-An%C3%ADk%C3%BAl%C3%A1p%C3%B3-Kuti-And-Afrika-70-No-Agreement"
+    },
+    {
+      "id": "sorrow-tears-and-blood",
+      "eraId": "afrobeat-70s",
+      "title": "Sorrow Tears and Blood",
+      "artist": "Fela Anikulapo-Kuti and Africa 70",
+      "year": 1977,
+      "label": "Kalakuta Records (KK 001)",
+      "designer": "Okanlawon Banjoko (front cover of the 1977 sleeve), designed at Ghariokwu Lemi Arts Company",
+      "photographer": "Femi Osunla",
+      "artNotes": "Ghariokwu was with Fela on the night the song was conceived and painted a cover for it. Fela rejected the painting, and the record first came out in a black-and-white photographic sleeve: front cover by Okanlawon Banjoko, made at Ghariokwu's own art company, with photography by Femi Osunla. The disagreement kept Fela and Ghariokwu apart for eight years. The painting was used on a 2003 book about Fela and restored to the album in 2010.",
+      "imagePath": null,
+      "imageCredit": null,
+      "imageStatus": "placeholder",
+      "listenUrl": null,
+      "sources": [
+        "https://www.okayafrica.com/fela-kuti-album-covers-lemi-ghariokwu/",
+        "https://felakuti.com/products/111894-sorrow-tears-and-blood-1977",
+        "https://en.wikipedia.org/wiki/Fela_Kuti_discography",
+        "https://www.discogs.com/master/330929-F%E1%BA%B9la-And-Afrika-70-Sorrow-Tears-And-Blood",
+        "https://www.discogs.com/release/2836674-F%E1%BA%B9la-And-Afrika-70-Sorrow-Tears-And-Blood"
+      ],
+      "verify": [],
+      "coverUrl": "https://www.discogs.com/master/330929-F%E1%BA%B9la-And-Afrika-70-Sorrow-Tears-And-Blood"
+    },
+    {
+      "id": "twice-as-tall",
+      "eraId": "global-20s",
+      "title": "Twice as Tall",
+      "artist": "Burna Boy",
+      "year": 2020,
+      "label": "Spaceship Entertainment / Bad Habit / Atlantic",
+      "designer": "Credit to be confirmed",
+      "photographer": null,
+      "artNotes": "Released 13 August 2020. Burna Boy is drawn as a giant seen from a low angle, one foot raised. A comic book, The Secret Flame, accompanied the album and is narrated by his grandfather Benson Idonije.",
+      "imagePath": null,
+      "imageCredit": null,
+      "imageStatus": "placeholder",
+      "listenUrl": null,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Twice_as_Tall",
+        "https://notjustok.com/news/burna-boys-album-twice-as-tall-will-come-with-a-comic-book/",
+        "https://afromixx.com/afrobeats-album-covers-art-design/"
+      ],
+      "verify": [
+        "Cover artist. Chuka Obi is named online as the illustrator; this was not confirmed in the sources checked"
+      ],
+      "placeholderAccent": "#FF5A36",
+      "coverUrl": "https://en.wikipedia.org/wiki/Twice_as_Tall"
+    },
+    {
+      "id": "made-in-lagos",
+      "eraId": "global-20s",
+      "title": "Made in Lagos",
+      "artist": "Wizkid",
+      "year": 2020,
+      "label": "Starboy Entertainment / RCA",
+      "designer": "Fawaz Concept (creative direction)",
+      "photographer": null,
+      "artNotes": "First planned for 15 October 2020 and moved to 30 October because of the End SARS protests. A monochrome portrait in browns: Wizkid with one hand over his face, in a watch, chains and jewellery, against a brown ground. The Native credits the cover, and the artwork for the lead single, to the Ghanaian creative director Fawaz Concept.",
+      "imagePath": null,
+      "imageCredit": null,
+      "imageStatus": "placeholder",
+      "listenUrl": null,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Made_in_Lagos",
+        "https://notjustok.com/news/wizkids-made-in-lagos-cover-art-explained/",
+        "https://thenativemag.com/look-back-wizkids-album-cover-arts-debut-superstar-made-lagos/"
+      ],
+      "verify": [
+        "Photographer, if separate from the creative director"
+      ],
+      "placeholderAccent": "#F2B705",
+      "coverUrl": "https://en.wikipedia.org/wiki/Made_in_Lagos"
+    },
+    {
+      "id": "rave-and-roses",
+      "eraId": "global-20s",
+      "title": "Rave & Roses",
+      "artist": "Rema",
+      "year": 2022,
+      "label": "Jonzing World / Mavin Records",
+      "designer": "Lanre William",
+      "photographer": null,
+      "artNotes": "Released 25 March 2022. Rema's debut album. Kurating describes the cover as a skeleton on fire running from an upside-down house with a rose in its hand, and credits it to Lanre William. Rema has explained the skeleton and mushroom imagery of this era as the death and evolution of the sweet boy of his first releases.",
+      "imagePath": null,
+      "imageCredit": null,
+      "imageStatus": "placeholder",
+      "listenUrl": null,
+      "sources": [
+        "https://thecreativesnote.substack.com/p/evolution-of-rema-sonic-and-art-direction",
+        "https://kurating.com/the-15-most-remarkable-contemporary-nigerian-album-covers/",
+        "https://en.wikipedia.org/wiki/Rave_%26_Roses"
+      ],
+      "verify": [
+        "Cover credit comes from a single source (Kurating)",
+        "Which edition each description refers to (2022 original or the later Ultra edition)"
+      ],
+      "placeholderAccent": "#E5484D",
+      "coverUrl": "https://en.wikipedia.org/wiki/Rave_%26_Roses"
+    },
+    {
+      "id": "mr-money-with-the-vibe",
+      "eraId": "global-20s",
+      "title": "Mr. Money with the Vibe",
+      "artist": "Asake",
+      "year": 2022,
+      "label": "YBNL Nation / Empire",
+      "designer": "Credit to be confirmed",
+      "photographer": "Credit to be confirmed",
+      "artNotes": "Released 7 September 2022. Asake's debut album, where fújì phrasing and choirs meet amapiano's log drum. Art-direction notes for this sleeve are still to be written from a verified source.",
+      "imagePath": null,
+      "imageCredit": null,
+      "imageStatus": "placeholder",
+      "listenUrl": null,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mr._Money_with_the_Vibe"
+      ],
+      "verify": [
+        "Cover designer and photographer",
+        "Art-direction notes"
+      ],
+      "placeholderAccent": "#58C4DD",
+      "coverUrl": "https://en.wikipedia.org/wiki/Mr._Money_with_the_Vibe"
+    },
+    {
+      "id": "timeless",
+      "eraId": "global-20s",
+      "title": "Timeless",
+      "artist": "Davido",
+      "year": 2023,
+      "label": "DMW / Columbia / Sony Music",
+      "designer": "Credit to be confirmed",
+      "photographer": null,
+      "artNotes": "Released 31 March 2023. The cover shows Davido's head, two elephants and a path leading to a large hourglass. Davido has said it is built from what his late son Ifeanyi loved: nature, trees and the elephant, his favourite animal. A bird in the tree on the left stands for Ifeanyi.",
+      "imagePath": null,
+      "imageCredit": null,
+      "imageStatus": "placeholder",
+      "listenUrl": null,
+      "sources": [
+        "https://www.legit.ng/entertainment/celebrities/1535394-ifeanyi-loved-nature-trees-elephants-davido-painfully-explains-how-created-timeless-cover-art/",
+        "https://en.wikipedia.org/wiki/Timeless_(Davido_album)"
+      ],
+      "verify": [
+        "Cover artist"
+      ],
+      "placeholderAccent": "#7BD88F",
+      "coverUrl": "https://en.wikipedia.org/wiki/Timeless_(Davido_album)"
+    },
+    {
+      "id": "born-in-the-wild",
+      "eraId": "global-20s",
+      "title": "Born in the Wild",
+      "artist": "Tems",
+      "year": 2024,
+      "label": "RCA Records / Since '93",
+      "designer": "Credit to be confirmed",
+      "photographer": "Credit to be confirmed",
+      "artNotes": "Released 7 June 2024. Tems's debut album. Art-direction notes for this sleeve are still to be written from a verified source.",
+      "imagePath": null,
+      "imageCredit": null,
+      "imageStatus": "placeholder",
+      "listenUrl": null,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Born_in_the_Wild"
+      ],
+      "verify": [
+        "Cover designer and photographer",
+        "Art-direction notes"
+      ],
+      "placeholderAccent": "#C9A227",
+      "coverUrl": "https://en.wikipedia.org/wiki/Born_in_the_Wild"
+    },
+    {
+      "id": "the-year-i-turned-21",
+      "eraId": "global-20s",
+      "title": "The Year I Turned 21",
+      "artist": "Ayra Starr",
+      "year": 2024,
+      "label": "Mavin / Republic",
+      "designer": "Credit to be confirmed",
+      "photographer": "Credit to be confirmed",
+      "artNotes": "Released 31 May 2024. Ayra Starr leans on a vintage car against a highway backdrop. She said that in the picture she felt like a bag of money.",
+      "imagePath": null,
+      "imageCredit": null,
+      "imageStatus": "placeholder",
+      "listenUrl": null,
+      "sources": [
+        "https://newscentraltv.com/ayra-starr-drops-cover-track-list-for-new-album-the-year-i-turned-21/",
+        "https://en.wikipedia.org/wiki/The_Year_I_Turned_21"
+      ],
+      "verify": [
+        "Cover photographer and designer"
+      ],
+      "placeholderAccent": "#FF7AB6",
+      "coverUrl": "https://en.wikipedia.org/wiki/The_Year_I_Turned_21"
+    },
+    {
+      "id": "juju-music",
+      "eraId": "juju-80s",
+      "title": "Juju Music",
+      "artist": "King Sunny Adé and His African Beats",
+      "year": 1982,
+      "label": "Island Records (Mango in the US; Sunny Alade in Nigeria)",
+      "designer": "Bruno Tilley (cover design)",
+      "photographer": null,
+      "artNotes": "Adé's first album for Island after signing in 1982, produced by Martin Meissonnier and made for listeners outside Nigeria. At home it appeared on Adé's own Sunny Alade label. A description of this sleeve is still to be written from a verified source.",
+      "imagePath": null,
+      "imageCredit": null,
+      "imageStatus": "placeholder",
+      "listenUrl": null,
+      "sources": [
+        "https://en.wikipedia.org/wiki/King_Sunny_Ad%C3%A9",
+        "https://www.discogs.com/master/112985-King-Sunny-Ad%C3%A9-And-His-African-Beats-Juju-Music"
+      ],
+      "verify": [
+        "Whether the sleeve carries a separate photography or illustration credit",
+        "Description of the sleeve"
+      ],
+      "coverUrl": "https://www.discogs.com/master/112985-King-Sunny-Ad%C3%A9-And-His-African-Beats-Juju-Music"
+    },
+    {
+      "id": "synchro-system",
+      "eraId": "juju-80s",
+      "title": "Synchro System",
+      "artist": "King Sunny Adé and His African Beats",
+      "year": 1983,
+      "label": "Island Records (Mango in the US)",
+      "designer": "Bruno Tilley (design)",
+      "photographer": null,
+      "artNotes": "The second Island album, and the one that brought the first Grammy nomination for a Nigerian artist. A description of this sleeve is still to be written from a verified source.",
+      "imagePath": null,
+      "imageCredit": null,
+      "imageStatus": "placeholder",
+      "listenUrl": null,
+      "sources": [
+        "https://en.wikipedia.org/wiki/King_Sunny_Ad%C3%A9",
+        "https://www.discogs.com/master/112987-King-Sunny-Ad%C3%A9-and-His-African-Beats-Synchro-System"
+      ],
+      "verify": [
+        "Whether the sleeve carries a separate photography credit",
+        "Description of the sleeve"
+      ],
+      "coverUrl": "https://www.discogs.com/master/112987-King-Sunny-Ad%C3%A9-and-His-African-Beats-Synchro-System"
+    },
+    {
+      "id": "austerity",
+      "eraId": "juju-80s",
+      "title": "Austerity",
+      "artist": "Chief Commander Ebenezer Obey and His Inter-Reformers Band",
+      "year": 1982,
+      "label": "Obey (WAPS 548)",
+      "designer": "Biodun Sowunmi (artwork)",
+      "photographer": null,
+      "artNotes": "Obey named a 1982 album after the government's belt-tightening measures of that year. Jùjú bandleaders commented on public life this way, in the title and in the songs. A description of this sleeve is still to be written from a verified source.",
+      "imagePath": null,
+      "imageCredit": null,
+      "imageStatus": "placeholder",
+      "listenUrl": null,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Ebenezer_Obey",
+        "https://www.discogs.com/release/4824187-Chief-Commander-Ebenezer-Obey-His-Inter-Reformers-Band-Austerity"
+      ],
+      "verify": [
+        "Photographer, if any",
+        "That the title refers to the government's 1982 austerity measures",
+        "Description of the sleeve"
+      ],
+      "coverUrl": "https://www.discogs.com/release/4824187-Chief-Commander-Ebenezer-Obey-His-Inter-Reformers-Band-Austerity"
+    },
+    {
+      "id": "je-ka-jo",
+      "eraId": "juju-80s",
+      "title": "Je Ka Jo",
+      "artist": "Chief Commander Ebenezer Obey and His Inter-Reformers Band",
+      "year": 1983,
+      "label": "Obey (IOPS 001) in Nigeria; Virgin (V 2283) abroad",
+      "designer": "Credit to be confirmed",
+      "photographer": "Credit to be confirmed",
+      "artNotes": "One of five Obey titles listed for 1983, a measure of how fast jùjú bands recorded. Virgin released it abroad with the title translated on the sleeve: Let Us Dance. A description of this sleeve is still to be written from a verified source.",
+      "imagePath": null,
+      "imageCredit": null,
+      "imageStatus": "placeholder",
+      "listenUrl": null,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Ebenezer_Obey",
+        "https://www.discogs.com/master/175622-Chief-Ebenezer-Obey-Je-Ka-Jo"
+      ],
+      "verify": [
+        "Cover designer",
+        "Cover photographer",
+        "Description of the sleeve"
+      ],
+      "coverUrl": "https://www.discogs.com/master/175622-Chief-Ebenezer-Obey-Je-Ka-Jo"
+    },
+    {
+      "id": "osondi-owendi",
+      "eraId": "juju-80s",
+      "title": "Osondi Owendi",
+      "artist": "Chief Stephen Osita Osadebe and His Nigeria Sound Makers International",
+      "year": 1984,
+      "label": "Polydor (POLP 120), Polygram Records Nigeria",
+      "designer": "Biodun Sowunmi (design)",
+      "photographer": "Isiaka Balogun, Young Star Photos",
+      "artNotes": "Osadebe's best-known record and one of the most popular Nigerian records ever made: Igbo highlife stretched out for the dance floor. The sleeve credits a designer, a photographer and his studio, and a writer of sleeve notes, Wole Iyaniwura, which is more than most sleeves of the decade do.",
+      "imagePath": null,
+      "imageCredit": null,
+      "imageStatus": "placeholder",
+      "listenUrl": null,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Chief_Stephen_Osita_Osadebe",
+        "https://www.discogs.com/release/2332615-Chief-Stephen-Osita-Osadebe-His-Nigeria-Sound-Makers-International-Osondi-Owendi"
+      ],
+      "verify": [
+        "Description of the sleeve"
+      ],
+      "coverUrl": "https://www.discogs.com/release/2332615-Chief-Stephen-Osita-Osadebe-His-Nigeria-Sound-Makers-International-Osondi-Owendi"
+    },
+    {
+      "id": "talazo-84",
+      "eraId": "juju-80s",
+      "title": "Talazo '84",
+      "artist": "Alhaji (Chief) Wasiu Ayinde Barrister and His Talazo Fuji Commanders",
+      "year": 1984,
+      "label": "Omo Aje (OLPS 1313)",
+      "designer": "Credit to be confirmed",
+      "photographer": "Credit to be confirmed",
+      "artNotes": "The most successful album of the singer later known as K1 De Ultimate, in the Talazo fújì style he built on the work of his mentor Sikiru Ayinde Barrister. Recorded at Decca Studios, Lagos; the sleeve names only its printer, Ibukunola Printers.",
+      "imagePath": null,
+      "imageCredit": null,
+      "imageStatus": "placeholder",
+      "listenUrl": null,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Wasiu_Ayinde_Marshal",
+        "https://www.discogs.com/release/9920762-Alhaji-Chief-Wasiu-Ayinde-Barrister-His-Talazo-Fuji-Commanders-Talazo-84"
+      ],
+      "verify": [
+        "Cover designer",
+        "Cover photographer",
+        "Description of the sleeve"
+      ],
+      "coverUrl": "https://www.discogs.com/release/9920762-Alhaji-Chief-Wasiu-Ayinde-Barrister-His-Talazo-Fuji-Commanders-Talazo-84"
+    },
+    {
+      "id": "fuji-garbage",
+      "eraId": "juju-80s",
+      "title": "Fuji Garbage",
+      "artist": "Chief (Dr.) Sikiru Ayinde Barrister",
+      "year": 1988,
+      "label": "Siky Oluyole Records (SKOLP 041)",
+      "designer": "Ibukunola Printers (Nig) Ltd, Lagos (designed and printed)",
+      "photographer": "Credit to be confirmed",
+      "artNotes": "The album that gave its name to Barrister's late-1980s sound, on his own label. The design credit goes to no person at all: the sleeve was designed at, and printed by, Ibukunola Printers of Lagos.",
+      "imagePath": null,
+      "imageCredit": null,
+      "imageStatus": "placeholder",
+      "listenUrl": null,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Sikiru_Ayinde_Barrister",
+        "https://www.discogs.com/release/3307540-Chief-Dr-Sikiru-Ayinde-Barrister-AIMA-Fuji-Garbage"
+      ],
+      "verify": [
+        "Cover photographer",
+        "Description of the sleeve"
+      ],
+      "coverUrl": "https://www.discogs.com/release/3307540-Chief-Dr-Sikiru-Ayinde-Barrister-AIMA-Fuji-Garbage"
+    },
+    {
+      "id": "identity",
+      "eraId": "juju-80s",
+      "title": "Identity",
+      "artist": "Oliver De Coque and His Expo '76 (Ogene Sound Super of Africa)",
+      "year": 1980,
+      "label": "Olumo Records (ORPS 108)",
+      "designer": "Credit to be confirmed",
+      "photographer": "Credit to be confirmed",
+      "artNotes": "Released in 1980; the song spent several weeks in Radio Nigeria 2's Top Ten in 1981. De Coque set Igbo traditional rhythm under Congolese-style guitar and called the result ogene sound. Printed by Ibukunola Printers, Lagos.",
+      "imagePath": null,
+      "imageCredit": null,
+      "imageStatus": "placeholder",
+      "listenUrl": null,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Oliver_De_Coque",
+        "https://www.discogs.com/release/4167699-Oliver-De-Coque-And-His-Expo-76-Ogene-Sound-Super-Of-Africa-Identity"
+      ],
+      "verify": [
+        "Cover designer",
+        "Cover photographer",
+        "Description of the sleeve"
+      ],
+      "coverUrl": "https://www.discogs.com/release/4167699-Oliver-De-Coque-And-His-Expo-76-Ogene-Sound-Super-Of-Africa-Identity"
+    },
+    {
+      "id": "body-and-soul",
+      "eraId": "cd-00s",
+      "title": "Body and Soul",
+      "artist": "Plantashun Boiz",
+      "year": 2000,
+      "label": "Dove Records",
+      "designer": "Credit to be confirmed",
+      "photographer": "Credit to be confirmed",
+      "artNotes": "The first of two albums by the trio of 2face, Blackface and Faze, on Nelson Brown's Dove Records. A description of this sleeve is still to be written from a verified source.",
+      "imagePath": null,
+      "imageCredit": null,
+      "imageStatus": "placeholder",
+      "listenUrl": null,
+      "sources": [
+        "https://en.wikipedia.org/wiki/2Baba"
+      ],
+      "verify": [
+        "Cover designer",
+        "Cover photographer",
+        "Description of the sleeve"
+      ]
+    },
+    {
+      "id": "jaga-jaga",
+      "eraId": "cd-00s",
+      "title": "Jaga Jaga",
+      "artist": "Eedris Abdulkareem",
+      "year": 2004,
+      "label": "Kennis Music (KMVCD 040)",
+      "designer": "Credit to be confirmed",
+      "photographer": "Credit to be confirmed",
+      "artNotes": "The title track attacked corruption and poor government and was banned from radio by President Obasanjo. It became Abdulkareem's best-known song anyway. A description of this sleeve is still to be written from a verified source.",
+      "imagePath": null,
+      "imageCredit": null,
+      "imageStatus": "placeholder",
+      "listenUrl": null,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Eedris_Abdulkareem",
+        "https://en.wikipedia.org/wiki/Kennis_Music",
+        "https://www.discogs.com/release/23517785-Eedris-Abdulkareem-Jaga-Jaga"
+      ],
+      "verify": [
+        "Year: Wikipedia gives 2004, Discogs lists the CD as 2005",
+        "Cover designer",
+        "Cover photographer",
+        "Kennis Music's main cover designer is reported to have been Lemi Ghariokwu; not confirmed for this sleeve",
+        "Description of the sleeve"
+      ],
+      "coverUrl": "https://www.discogs.com/release/23517785-Eedris-Abdulkareem-Jaga-Jaga"
+    },
+    {
+      "id": "face-2-face",
+      "eraId": "cd-00s",
+      "title": "Face 2 Face",
+      "artist": "2face Idibia",
+      "year": 2004,
+      "label": "Kennis Music",
+      "designer": "Credit to be confirmed",
+      "photographer": "Credit to be confirmed",
+      "artNotes": "The solo debut, home of African Queen. A description of this sleeve is still to be written from a verified source.",
+      "imagePath": null,
+      "imageCredit": null,
+      "imageStatus": "placeholder",
+      "listenUrl": null,
+      "sources": [
+        "https://en.wikipedia.org/wiki/2Baba",
+        "https://en.wikipedia.org/wiki/Kennis_Music"
+      ],
+      "verify": [
+        "Cover designer",
+        "Cover photographer",
+        "Kennis Music's main cover designer is reported to have been Lemi Ghariokwu; not confirmed for this sleeve",
+        "Description of the sleeve"
+      ]
+    },
+    {
+      "id": "get-squared",
+      "eraId": "cd-00s",
+      "title": "Get Squared",
+      "artist": "P-Square",
+      "year": 2005,
+      "label": "Square Records",
+      "designer": "Credit to be confirmed",
+      "photographer": "Credit to be confirmed",
+      "artNotes": "The twins' second album and the first on their own Square Records, one of the best-selling Nigerian albums of 2005. A description of this sleeve is still to be written from a verified source.",
+      "imagePath": null,
+      "imageCredit": null,
+      "imageStatus": "placeholder",
+      "listenUrl": null,
+      "sources": [
+        "https://en.wikipedia.org/wiki/P-Square"
+      ],
+      "verify": [
+        "Cover designer",
+        "Cover photographer",
+        "Description of the sleeve"
+      ]
+    },
+    {
+      "id": "no-long-thing",
+      "eraId": "cd-00s",
+      "title": "No Long Thing",
+      "artist": "D'banj",
+      "year": 2005,
+      "label": "Mo' Hits Records",
+      "designer": "Credit to be confirmed",
+      "photographer": "Credit to be confirmed",
+      "artNotes": "Released 25 March 2005. The debut that introduced D'banj's Koko Master persona, produced by Don Jazzy. A description of this sleeve is still to be written from a verified source.",
+      "imagePath": null,
+      "imageCredit": null,
+      "imageStatus": "placeholder",
+      "listenUrl": null,
+      "sources": [
+        "https://en.wikipedia.org/wiki/D%27banj"
+      ],
+      "verify": [
+        "Cover designer",
+        "Cover photographer",
+        "Description of the sleeve"
+      ]
+    },
+    {
+      "id": "grass-2-grace",
+      "eraId": "cd-00s",
+      "title": "Grass 2 Grace",
+      "artist": "2face Idibia",
+      "year": 2006,
+      "label": "Kennis Music",
+      "designer": "Credit to be confirmed",
+      "photographer": "Credit to be confirmed",
+      "artNotes": "The second solo album and the last for Kennis Music before 2face set up his own label, Hypertek. A description of this sleeve is still to be written from a verified source.",
+      "imagePath": null,
+      "imageCredit": null,
+      "imageStatus": "placeholder",
+      "listenUrl": null,
+      "sources": [
+        "https://en.wikipedia.org/wiki/2Baba",
+        "https://en.wikipedia.org/wiki/Kennis_Music"
+      ],
+      "verify": [
+        "Cover designer",
+        "Cover photographer",
+        "Kennis Music's main cover designer is reported to have been Lemi Ghariokwu; not confirmed for this sleeve",
+        "Description of the sleeve"
+      ]
+    },
+    {
+      "id": "expressions",
+      "eraId": "cd-00s",
+      "title": "Expressions",
+      "artist": "Styl-Plus",
+      "year": 2006,
+      "label": "Styl-Plus Music (the group's own label)",
+      "designer": "Credit to be confirmed",
+      "photographer": "Credit to be confirmed",
+      "artNotes": "Released February 2006. The Abuja R&B group's long-awaited eleven-track debut, after Olufunmi and Runaway had ruled Nigerian radio in 2004 and 2005. A description of this sleeve is still to be written from a verified source.",
+      "imagePath": null,
+      "imageCredit": null,
+      "imageStatus": "placeholder",
+      "listenUrl": null,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Styl-Plus",
+        "https://music.apple.com/us/album/expressions/1745345914",
+        "https://www.allmusic.com/album/expressions-mw0001927492"
+      ],
+      "verify": [
+        "Release date: Wikipedia gives February 2006, AllMusic lists October 2007",
+        "Cover designer",
+        "Cover photographer",
+        "Description of the sleeve"
+      ],
+      "coverUrl": "https://music.apple.com/us/album/expressions/1745345914"
+    },
+    {
+      "id": "curriculum-vitae",
+      "eraId": "cd-00s",
+      "title": "Curriculum Vitae",
+      "artist": "Mo'Hits All Stars",
+      "year": 2007,
+      "label": "Mo' Hits Records",
+      "designer": "Credit to be confirmed",
+      "photographer": "Credit to be confirmed",
+      "artNotes": "Released December 2007. The label's roster presented as one crew, on the model of American rap collectives. A description of this sleeve is still to be written from a verified source.",
+      "imagePath": null,
+      "imageCredit": null,
+      "imageStatus": "placeholder",
+      "listenUrl": null,
+      "sources": [
+        "https://en.wikipedia.org/wiki/D%27banj"
+      ],
+      "verify": [
+        "Cover designer",
+        "Cover photographer",
+        "Description of the sleeve"
+      ]
+    },
+    {
+      "id": "superstar",
+      "eraId": "afrobeats-10s",
+      "title": "Superstar",
+      "artist": "Wizkid",
+      "year": 2011,
+      "label": "Empire Mates Entertainment",
+      "designer": "Osa Seven (album artwork)",
+      "photographer": "Seyi Charles George",
+      "artNotes": "Released 12 June 2011. Wizkid in sunglasses and a green baseball cap against a digitally built field of 3D stars.",
+      "imagePath": null,
+      "imageCredit": null,
+      "imageStatus": "placeholder",
+      "listenUrl": null,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Superstar_(Wizkid_album)",
+        "https://thenativemag.com/look-back-wizkids-album-cover-arts-debut-superstar-made-lagos/",
+        "https://en.wikipedia.org/wiki/Osa_Seven"
+      ],
+      "verify": [
+        "Artwork and photography credits come from Wikipedia's credits only"
+      ],
+      "coverUrl": "https://en.wikipedia.org/wiki/Superstar_(Wizkid_album)"
+    },
+    {
+      "id": "omo-baba-olowo",
+      "eraId": "afrobeats-10s",
+      "title": "Omo Baba Olowo",
+      "artist": "Davido",
+      "year": 2012,
+      "label": "HKN Music",
+      "designer": "Credit to be confirmed",
+      "photographer": "TCD Photography",
+      "artNotes": "Released 17 July 2012. The title means son of a rich man, and the debut made no secret of it. A description of this sleeve is still to be written from a verified source.",
+      "imagePath": null,
+      "imageCredit": null,
+      "imageStatus": "placeholder",
+      "listenUrl": null,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Omo_Baba_Olowo"
+      ],
+      "verify": [
+        "Cover designer",
+        "Photography credit comes from Wikipedia's credits only",
+        "Description of the sleeve"
+      ],
+      "coverUrl": "https://en.wikipedia.org/wiki/Omo_Baba_Olowo"
+    },
+    {
+      "id": "life",
+      "eraId": "afrobeats-10s",
+      "title": "L.I.F.E",
+      "artist": "Burna Boy",
+      "year": 2013,
+      "label": "Aristokrat Records",
+      "designer": "Peedi Picasso",
+      "photographer": null,
+      "artNotes": "Released 12 August 2013. Burna Boy shares the cover with Fela Kuti, King Sunny Adé and Bob Marley: a debut that names its ancestors on the front.",
+      "imagePath": null,
+      "imageCredit": null,
+      "imageStatus": "placeholder",
+      "listenUrl": null,
+      "sources": [
+        "https://en.wikipedia.org/wiki/L.I.F.E"
+      ],
+      "verify": [
+        "Cover credit comes from Wikipedia only"
+      ],
+      "coverUrl": "https://en.wikipedia.org/wiki/L.I.F.E"
+    },
+    {
+      "id": "once-upon-a-time",
+      "eraId": "afrobeats-10s",
+      "title": "Once Upon a Time",
+      "artist": "Tiwa Savage",
+      "year": 2013,
+      "label": "Mavin Records / 323 Entertainment",
+      "designer": "Credit to be confirmed",
+      "photographer": "Credit to be confirmed",
+      "artNotes": "Released 3 July 2013. The cover was unveiled at a private listening party at the Wheatbaker Hotel in Ikoyi, Lagos, on 26 May, the kind of launch the decade made standard. A description of this sleeve is still to be written from a verified source.",
+      "imagePath": null,
+      "imageCredit": null,
+      "imageStatus": "placeholder",
+      "listenUrl": null,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Once_Upon_a_Time_(Tiwa_Savage_album)"
+      ],
+      "verify": [
+        "Cover designer",
+        "Cover photographer",
+        "Description of the sleeve"
+      ],
+      "coverUrl": "https://en.wikipedia.org/wiki/Once_Upon_a_Time_(Tiwa_Savage_album)"
+    },
+    {
+      "id": "baddest-guy-ever-liveth",
+      "eraId": "afrobeats-10s",
+      "title": "Baddest Guy Ever Liveth",
+      "artist": "Olamide",
+      "year": 2013,
+      "label": "YBNL Nation",
+      "designer": "Credit to be confirmed",
+      "photographer": "Credit to be confirmed",
+      "artNotes": "Released 7 November 2013. Caesar-inspired artwork, unveiled three weeks ahead of the album. Fans and fellow artists copied the gunman pose from the cover.",
+      "imagePath": null,
+      "imageCredit": null,
+      "imageStatus": "placeholder",
+      "listenUrl": null,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Baddest_Guy_Ever_Liveth"
+      ],
+      "verify": [
+        "Cover designer",
+        "Cover photographer"
+      ],
+      "coverUrl": "https://en.wikipedia.org/wiki/Baddest_Guy_Ever_Liveth"
+    },
+    {
+      "id": "king-of-queens",
+      "eraId": "afrobeats-10s",
+      "title": "King of Queens",
+      "artist": "Yemi Alade",
+      "year": 2014,
+      "label": "Effyzzie Music Group",
+      "designer": "UnravelGfx (album art)",
+      "photographer": "August Udoh",
+      "artNotes": "Released 2 October 2014. A portrait of Yemi Alade; the deluxe edition, unveiled later that month, used a different image. A description of this sleeve is still to be written from a verified source.",
+      "imagePath": null,
+      "imageCredit": null,
+      "imageStatus": "placeholder",
+      "listenUrl": null,
+      "sources": [
+        "https://en.wikipedia.org/wiki/King_of_Queens_(album)"
+      ],
+      "verify": [
+        "Album art and photography credits come from Wikipedia's credits only",
+        "Description of the sleeve"
+      ],
+      "coverUrl": "https://en.wikipedia.org/wiki/King_of_Queens_(album)"
+    },
+    {
+      "id": "pana",
+      "eraId": "afrobeats-10s",
+      "title": "Pana (single)",
+      "artist": "Tekno",
+      "year": 2016,
+      "label": "Made Men Music Group",
+      "designer": "Credit to be confirmed",
+      "photographer": "Credit to be confirmed",
+      "artNotes": "Released 22 July 2016. A single, not an album: by the middle of the decade one song with its own artwork and a Clarence Peters video could carry a career. A description of this sleeve is still to be written from a verified source.",
+      "imagePath": null,
+      "imageCredit": null,
+      "imageStatus": "placeholder",
+      "listenUrl": null,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Pana_(song)"
+      ],
+      "verify": [
+        "Cover designer",
+        "Cover photographer",
+        "Description of the artwork"
+      ],
+      "coverUrl": "https://en.wikipedia.org/wiki/Pana_(song)"
+    },
+    {
+      "id": "african-giant",
+      "eraId": "afrobeats-10s",
+      "title": "African Giant",
+      "artist": "Burna Boy",
+      "year": 2019,
+      "label": "Spaceship Entertainment / Bad Habit / Atlantic",
+      "designer": "Credit to be confirmed",
+      "photographer": null,
+      "artNotes": "Released 26 July 2019. The artwork is modelled on Nigeria's first 10 naira note, which carried the educationist Alvan Ikoku. The serial numbers give Burna Boy's date of birth, and gold coins point to a single African currency backed by gold.",
+      "imagePath": null,
+      "imageCredit": null,
+      "imageStatus": "placeholder",
+      "listenUrl": null,
+      "sources": [
+        "https://en.wikipedia.org/wiki/African_Giant"
+      ],
+      "verify": [
+        "Cover designer"
+      ],
+      "coverUrl": "https://en.wikipedia.org/wiki/African_Giant"
+    }
+  ],
+  "designers": [
+    {
+      "id": "lemi-ghariokwu",
+      "name": "Lemi Ghariokwu",
+      "role": "Painter, illustrator, sleeve designer",
+      "eras": "1970s to today",
+      "notableCovers": [
+        "Alagbon Close (Fela, 1974)",
+        "Kalakuta Show (Fela, 1976)",
+        "Ikoyi Blindness (Fela, 1976)",
+        "Zombie (Fela, 1976)",
+        "Yellow Fever (Fela, 1976)",
+        "No Agreement (Fela, 1977)",
+        "J.J.D. (Fela, 1977)",
+        "Beasts of No Nation (Fela, 1989)",
+        "Black Times (Seun Kuti and Egypt 80, 2018)"
+      ],
+      "signatureStyle": "Crowded painted scenes that argue the song's case: caricatured officials, hand-drawn lettering, collage, colour at full strength. Critics have called the work rebellious, comical and political.",
+      "profile": "Born in Agege, Lagos, in December 1955 and self-taught. In 1974 the journalist Babatunde Harrison saw his drawings and introduced him to Fela Kuti. He refused payment for the portrait he brought, and was welcomed into the Kalakuta Republic. Early sleeves credit him as S. E. Lemy, G. Lemmi or Ghariokwu Lemmi. He designed 26 covers for Fela and is credited with more than 2,000 sleeves in all, later serving as the main cover designer for Kennis Music in the CD years. His 2002 painting Anoda Sistem is in the collection of the Museum of Modern Art, New York.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Lemi_Ghariokwu",
+        "https://www.okayafrica.com/fela-kuti-album-covers-lemi-ghariokwu/",
+        "https://www.itsnicethat.com/features/wuruwuru-album-cover-bank-graphic-design-art-spotlight-220124",
+        "https://kurating.com/the-15-most-remarkable-contemporary-nigerian-album-covers/",
+        "https://en.wikipedia.org/wiki/Kennis_Music",
+        "https://www.discogs.com/master/150516-Fela-Ransome-Kuti-Africa-70-Alagbon-Close",
+        "https://www.discogs.com/master/150513-Fela-Africa-70-Kalakuta-Show",
+        "https://www.discogs.com/master/217509-Fela-Anikulapo-Kuti-Afrika-70-Ikoyi-Blindness",
+        "https://www.discogs.com/master/113995-F%E1%BA%B9la-And-Afrika-70-Zombie",
+        "https://www.discogs.com/master/234156-Fela-An%C3%ADk%C3%BAl%C3%A1p%C3%B3-Kuti-And-Afrika-70-No-Agreement"
+      ],
+      "verify": [
+        "Which Kennis Music sleeves he designed"
+      ]
+    },
+    {
+      "id": "remi-olowookere",
+      "name": "Remi Olowookere",
+      "role": "Graphics and artwork",
+      "eras": "1970s",
+      "notableCovers": [
+        "Expensive Shit (Fela, 1975)",
+        "Kalakuta Show (Fela, 1976)"
+      ],
+      "signatureStyle": "The lettering and layout hand on Africa 70 sleeves, working beside a photograph on one and Ghariokwu's painted front cover on the other.",
+      "profile": "Credited for artwork and graphics on Expensive Shit and for graphics on Kalakuta Show. Nothing about his life or other work was confirmed for this build.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Expensive_Shit",
+        "https://www.discogs.com/release/1776379-Fela-Africa-70-Kalakuta-Show"
+      ],
+      "verify": [
+        "Biography",
+        "Expensive Shit credit comes from Wikipedia's personnel list only"
+      ]
+    },
+    {
+      "id": "tunde-kuboye",
+      "name": "Tunde Kuboye",
+      "role": "Photographer",
+      "eras": "1970s",
+      "notableCovers": [
+        "Zombie (Fela, 1976)",
+        "Fear Not for Man (Fela, 1977)"
+      ],
+      "signatureStyle": "Photographs taken close to Fela and the band, which Ghariokwu then cut, arranged and painted over.",
+      "profile": "Credited with the photography on Zombie. Ghariokwu has said the cover of Fear Not for Man began as a Kuboye photograph that he painted over with ecoline ink to get the look of blood.",
+      "sources": [
+        "https://www.discogs.com/release/1816011-F%E1%BA%B9la-And-Afrika-70-Zombie",
+        "https://www.okayafrica.com/fela-kuti-album-covers-lemi-ghariokwu/"
+      ],
+      "verify": [
+        "Biography"
+      ]
+    },
+    {
+      "id": "femi-bankole-osunla",
+      "name": "Femi Bankole Osunla",
+      "role": "Photographer",
+      "eras": "1970s",
+      "notableCovers": [
+        "Kalakuta Show (Fela, 1976)",
+        "Yellow Fever (Fela, 1976)",
+        "Sorrow Tears and Blood (Fela, 1977)"
+      ],
+      "signatureStyle": "The photographs inside the painted world: his pictures sit on sleeves whose fronts were designed by Ghariokwu and, on Sorrow Tears and Blood, by Okanlawon Banjoko.",
+      "profile": "Sleeve credits spell the name three ways: Bankole Osunle, David Bankole Osunla and Femi Osunla. This section reads them as one photographer [VERIFY].",
+      "sources": [
+        "https://www.discogs.com/release/1776379-Fela-Africa-70-Kalakuta-Show",
+        "https://www.discogs.com/release/1490191-Fela-Anikulapo-Kuti-Afrika-70-Yellow-Fever",
+        "https://www.discogs.com/release/2836674-F%E1%BA%B9la-And-Afrika-70-Sorrow-Tears-And-Blood"
+      ],
+      "verify": [
+        "That the three credited names are the same person",
+        "Biography"
+      ]
+    },
+    {
+      "id": "biodun-sowunmi",
+      "name": "Biodun Sowunmi",
+      "role": "Sleeve designer",
+      "eras": "1980s",
+      "notableCovers": [
+        "Austerity (Ebenezer Obey, 1982)",
+        "Osondi Owendi (Osita Osadebe, 1984)"
+      ],
+      "signatureStyle": "Bandleader sleeves for both jùjú and highlife: credited for artwork on one and design on the other, across two labels.",
+      "profile": "One of the few designers named on Nigerian sleeves of the 1980s. He is credited on an Obey label release and on a Polydor one, which suggests a freelance or in-house designer working for more than one company. Nothing more was confirmed for this build.",
+      "sources": [
+        "https://www.discogs.com/release/4824187-Chief-Commander-Ebenezer-Obey-His-Inter-Reformers-Band-Austerity",
+        "https://www.discogs.com/release/2332615-Chief-Stephen-Osita-Osadebe-His-Nigeria-Sound-Makers-International-Osondi-Owendi"
+      ],
+      "verify": [
+        "Biography",
+        "Other sleeves"
+      ]
+    },
+    {
+      "id": "ibukunola-printers",
+      "name": "Ibukunola Printers",
+      "role": "Printing house and sleeve studio, Lagos",
+      "eras": "1980s",
+      "notableCovers": [
+        "Fuji Garbage (Sikiru Ayinde Barrister, 1988), designed and printed",
+        "Talazo '84 (Wasiu Ayinde Barrister, 1984), printed",
+        "Identity (Oliver De Coque, 1980), printed"
+      ],
+      "signatureStyle": "The house style of the decade's independents: studio portrait, heavy title, printed fast for labels owned by the musicians themselves.",
+      "profile": "Not a person but a firm. In the 1980s the design credit on many sleeves went to the printer, and Ibukunola Printers (Nig) Ltd of Lagos appears on fújì and highlife records from several labels. The individual artists who worked there are not named.",
+      "sources": [
+        "https://www.discogs.com/release/3307540-Chief-Dr-Sikiru-Ayinde-Barrister-AIMA-Fuji-Garbage",
+        "https://www.discogs.com/release/9920762-Alhaji-Chief-Wasiu-Ayinde-Barrister-His-Talazo-Fuji-Commanders-Talazo-84",
+        "https://www.discogs.com/release/4167699-Oliver-De-Coque-And-His-Expo-76-Ogene-Sound-Super-Of-Africa-Identity"
+      ],
+      "verify": [
+        "Names of the artists employed there"
+      ]
+    },
+    {
+      "id": "bruno-tilley",
+      "name": "Bruno Tilley",
+      "role": "Record-label designer",
+      "eras": "1980s",
+      "notableCovers": [
+        "Juju Music (King Sunny Adé, 1982)",
+        "Synchro System (King Sunny Adé, 1983)"
+      ],
+      "signatureStyle": "Export packaging: Island Records' presentation of a Lagos bandleader to buyers in Europe and America.",
+      "profile": "Credited with the cover design of both King Sunny Adé albums in this crate, made for Island Records' international editions. He is the one designer in this section working from outside Nigeria.",
+      "sources": [
+        "https://www.discogs.com/master/112985-King-Sunny-Ad%C3%A9-And-His-African-Beats-Juju-Music",
+        "https://www.discogs.com/master/112987-King-Sunny-Ad%C3%A9-and-His-African-Beats-Synchro-System"
+      ],
+      "verify": [
+        "Biography"
+      ]
+    },
+    {
+      "id": "osa-seven",
+      "name": "Osa Seven",
+      "role": "Graffiti artist, graphic designer",
+      "eras": "2010s",
+      "notableCovers": [
+        "Superstar (Wizkid, 2011)"
+      ],
+      "signatureStyle": "Street-art portraiture and bold graphic work: iconic faces, tribal and abstract pattern, brand design.",
+      "profile": "Osa Okunkpolor, born in 1983, studied visual communications at the University of Lagos and became one of the city's best-known graffiti artists, with commissions from MTV, Guinness and Heineken. The credits for Wizkid's debut list him for the album artwork.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Osa_Seven",
+        "https://en.wikipedia.org/wiki/Superstar_(Wizkid_album)"
+      ],
+      "verify": [
+        "Superstar artwork credit comes from Wikipedia's credits only",
+        "Other album covers"
+      ]
+    },
+    {
+      "id": "duks",
+      "name": "Duks",
+      "role": "Art director, graphic designer, photographer",
+      "eras": "Late 2010s to today",
+      "notableCovers": [
+        "Enjoy Your Life (Lady Donli, 2019)"
+      ],
+      "signatureStyle": "Illustration-led covers with a retro eye. Enjoy Your Life sets the artist in a blue three-piece against rose pink, in a nod to the Afro-rock stars of the 1970s.",
+      "profile": "A multidisciplinary Lagos creative, named with Funto Coker and Niyi Okeowo as a pioneer of the illustration-heavy style that now dominates Nigerian covers.",
+      "sources": [
+        "https://kurating.com/the-15-most-remarkable-contemporary-nigerian-album-covers/",
+        "https://theartofcoverart.substack.com/p/exploring-the-visual-history-of-nigerian",
+        "https://www.itsnicethat.com/features/wuruwuru-album-cover-bank-graphic-design-art-spotlight-220124"
+      ],
+      "verify": [
+        "Full name and biography",
+        "Other album covers"
+      ]
+    },
+    {
+      "id": "duro-arts",
+      "name": "Duro Arts",
+      "role": "Digital artist, illustrator",
+      "eras": "Late 2010s to today",
+      "notableCovers": [
+        "Deal With It (Phyno, 2019)",
+        "Moral Instruction, alternative cover (Falz, 2019)",
+        "UY Scuti (Olamide, 2021)"
+      ],
+      "signatureStyle": "Digital painting that grew out of caricature: the artist's portrait first, rendered in detail, then adapted to the mood each musician asks for.",
+      "profile": "Oluwadurotimi Bolaji Idowu was born in Lagos, began making digital art in 2010 and is based in Accra. He has also made artwork for Peruzzi, Zlatan, Oxlade, Davido and Chike. He says the process changes with each musician, and that some arrive knowing only the feeling they want.",
+      "sources": [
+        "https://www.okayafrica.com/afrobeats-album-covers-duro-arts/"
+      ],
+      "verify": [
+        "Year of UY Scuti"
+      ]
+    },
+    {
+      "id": "funto-coker",
+      "name": "Funto Coker",
+      "role": "Illustrator, art director",
+      "eras": "2020s",
+      "notableCovers": [
+        "ROOTS (The Cavemen., 2020)"
+      ],
+      "signatureStyle": "Drawn, story-telling covers. ROOTS shows a village scene of dancing and drumming set inside an ornate wooden frame, with a deliberately old-fashioned finish.",
+      "profile": "A freelance artist named as one of the pioneers of the illustration-heavy style, and an example of the shift from label art departments to individual stylists.",
+      "sources": [
+        "https://kurating.com/the-15-most-remarkable-contemporary-nigerian-album-covers/",
+        "https://www.itsnicethat.com/features/wuruwuru-album-cover-bank-graphic-design-art-spotlight-220124",
+        "https://theartofcoverart.substack.com/p/exploring-the-visual-history-of-nigerian"
+      ],
+      "verify": [
+        "Biography",
+        "Other album covers"
+      ]
+    },
+    {
+      "id": "lakin-ogunbanwo",
+      "name": "Lakin Ogunbanwo",
+      "role": "Photographer",
+      "eras": "2010s to today",
+      "notableCovers": [
+        "For Broken Ears (Tems, 2020)"
+      ],
+      "signatureStyle": "On the evidence of this cover: a single figure against flat, saturated colour. For Broken Ears places a braided figure on a plain orange ground.",
+      "profile": "A Nigerian photographer, credited by Kurating with the cover of Tems's first EP. That image set the quiet, single-figure tone the 2020s would follow.",
+      "sources": [
+        "https://kurating.com/the-15-most-remarkable-contemporary-nigerian-album-covers/"
+      ],
+      "verify": [
+        "Biography",
+        "Other album covers"
+      ]
+    },
+    {
+      "id": "fawaz-concept",
+      "name": "Fawaz Concept",
+      "role": "Creative director",
+      "eras": "2020s",
+      "notableCovers": [
+        "Made in Lagos (Wizkid, 2020)"
+      ],
+      "signatureStyle": "Tonal, restrained portraiture. Made in Lagos is a monochrome image in browns, the artist's hand over his face.",
+      "profile": "A Ghanaian creative director, credited by The Native with the cover of Made in Lagos and with the artwork for its lead single.",
+      "sources": [
+        "https://thenativemag.com/look-back-wizkids-album-cover-arts-debut-superstar-made-lagos/"
+      ],
+      "verify": [
+        "Full name and biography",
+        "Other album covers"
+      ]
+    }
+  ]
+}

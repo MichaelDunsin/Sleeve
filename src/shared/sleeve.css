@@ -1,0 +1,562 @@
+/* Shared mechanics: sleeve, record, detail view, mobile vinyl nav.
+   Variants restyle skins; geometry and behaviour live here. */
+
+/* ---------- Sleeve button ---------- */
+
+.sl {
+  --rx: 0deg;
+  --ry: 0deg;
+  --mx: 50%;
+  --my: 30%;
+  position: relative;
+  display: block;
+  width: 100%;
+  padding: 0;
+  border: 0;
+  background: none;
+  aspect-ratio: 1;
+  isolation: isolate;
+  perspective: 900px;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.sl__jacket {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  display: block;
+  overflow: hidden;
+  transform: rotateX(var(--rx)) rotateY(var(--ry));
+  transform-style: preserve-3d;
+  transition: transform 500ms var(--ease-out), box-shadow 500ms var(--ease-out);
+  box-shadow:
+    0 1px 1px rgb(0 0 0 / 0.25),
+    0 10px 24px -10px rgb(0 0 0 / 0.55);
+  background: #000;
+}
+
+.sl:hover .sl__jacket {
+  transition-duration: 120ms, 500ms;
+  box-shadow:
+    0 2px 2px rgb(0 0 0 / 0.2),
+    0 22px 40px -14px rgb(0 0 0 / 0.6);
+}
+
+.sl__sheen {
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(circle at var(--mx) var(--my), rgb(255 255 255 / 0.32), rgb(255 255 255 / 0.06) 32%, transparent 60%);
+  mix-blend-mode: soft-light;
+  opacity: 0;
+  transition: opacity 300ms var(--ease-out);
+  pointer-events: none;
+}
+.sl:hover .sl__sheen {
+  opacity: 1;
+}
+
+.cover {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  user-select: none;
+}
+
+/* The record sits behind the jacket and peeks on hover. */
+.disc {
+  --disc-label: var(--label-red);
+  position: absolute;
+  display: block;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background:
+    radial-gradient(circle, transparent 0 2.2%, var(--disc-label) 2.4% 31%, #0c0c0c 31.6% 33%, transparent 33.4%),
+    repeating-radial-gradient(circle, #121212 0 1px, #1c1c1c 1.6px 2.4px, #0f0f0f 3px),
+    #111;
+  box-shadow: 0 6px 16px -6px rgb(0 0 0 / 0.6);
+}
+.disc::after {
+  /* a single highlight sweep across the grooves */
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  background: conic-gradient(from 210deg, transparent 0 8%, rgb(255 255 255 / 0.12) 12%, transparent 18% 58%, rgb(255 255 255 / 0.08) 62%, transparent 68%);
+}
+.disc__label {
+  position: absolute;
+  inset: 34%;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+}
+.disc__label-text {
+  font-family: var(--mono);
+  font-size: clamp(5px, 0.9cqi, 9px);
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  color: rgb(0 0 0 / 0.72);
+  transform: translateY(-160%);
+}
+
+.sl__disc {
+  inset: 3% 3% 3% 3%;
+  z-index: 0;
+  transform: translateX(0) rotate(0deg);
+  transition: transform 600ms var(--ease-out);
+}
+.sl:hover .sl__disc,
+.sl:focus-visible .sl__disc {
+  transform: translateX(16%) rotate(40deg);
+}
+.sl.is-pulling .sl__disc {
+  transform: translateX(62%) rotate(200deg);
+  transition-duration: 380ms;
+}
+
+/* ---------- Placeholder cover (no licensed art yet) ----------
+   An abstract field in the era's own grammar, the sleeve's accent as its one
+   vivid note, and the artist, title and year set in the era's display face.
+   Never an imitation of the real cover. */
+
+.sl__jacket,
+.detail__jacket {
+  container-type: inline-size;
+}
+
+.cover--placeholder {
+  --ph-accent: var(--era-accent-1);
+  position: relative;
+  display: grid;
+  align-content: end;
+  gap: 0.25em;
+  padding: 9% 9% 10%;
+  background: var(--era-bg);
+  color: var(--era-fg);
+  text-align: left;
+  overflow: hidden;
+  font-size: clamp(9px, 4.2cqi, 15px);
+}
+.cover__ph-art {
+  position: absolute;
+  inset: 0;
+}
+.cover__ph-artist,
+.cover__ph-year,
+.cover__ph-label {
+  position: relative;
+  font-family: var(--mono);
+  font-size: 0.78em;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  line-height: 1.25;
+  text-transform: uppercase;
+}
+.cover__ph-title {
+  position: relative;
+  font-size: clamp(16px, 11cqi, 44px);
+  line-height: 0.95;
+  text-wrap: balance;
+}
+.cover__ph-label {
+  position: absolute;
+  top: 7%;
+  left: 7%;
+  right: auto;
+  padding: 0.35em 0.6em;
+  background: var(--era-fg);
+  color: var(--era-bg);
+  font-size: 0.68em;
+}
+
+/* 1970s: painted sunburst and collage block */
+[data-era='e1'] .cover__ph-art {
+  background:
+    radial-gradient(circle at 72% 30%, var(--ph-accent) 0 16%, transparent 16.5%),
+    repeating-conic-gradient(from 0deg at 72% 30%, rgb(217 142 4 / 0.28) 0 6deg, transparent 6deg 14deg),
+    linear-gradient(160deg, transparent 58%, var(--era-accent-2) 58.5% 72%, transparent 72.5%),
+    var(--era-texture);
+}
+/* 1980s: a studio backdrop, a gold rim light, a flash hotspot */
+[data-era='e2'] .cover--placeholder {
+  background: radial-gradient(70% 60% at 50% 38%, #2a7f88, var(--era-accent-2) 55%, #123f45);
+  color: var(--era-paper);
+}
+[data-era='e2'] .cover__ph-art {
+  background:
+    radial-gradient(circle at 50% 36%, transparent 0 24%, var(--ph-accent) 24.5% 27%, transparent 27.5%),
+    radial-gradient(circle at 50% 36%, rgb(255 255 255 / 0.35), transparent 22%),
+    repeating-linear-gradient(115deg, rgb(212 160 23 / 0) 0 7px, rgb(212 160 23 / 0.12) 8px, rgb(212 160 23 / 0) 10px),
+    linear-gradient(transparent 70%, rgb(46 24 68 / 0.85));
+}
+[data-era='e2'] .cover__ph-label {
+  background: var(--era-accent-1);
+  color: var(--era-ink);
+}
+/* 2000s: chrome sweep, lens flare, jewel-case blue */
+[data-era='e3'] .cover--placeholder {
+  background: linear-gradient(160deg, #0a0a0a 30%, #0e2a8a 70%, #1e5bff);
+}
+[data-era='e3'] .cover__ph-art {
+  background:
+    radial-gradient(circle at 74% 24%, #fff 0 1.2%, rgb(160 190 255 / 0.7) 3%, transparent 12%),
+    radial-gradient(circle at 74% 24%, transparent 20%, rgb(106 147 255 / 0.3) 21%, transparent 24%),
+    linear-gradient(115deg, transparent 40%, rgb(192 198 204 / 0.28) 46%, transparent 52%),
+    linear-gradient(transparent 60%, rgb(0 0 0 / 0.7));
+}
+/* 2010s: flat colour blocking on seamless paper */
+[data-era='e4'] .cover--placeholder {
+  background: var(--era-paper);
+  color: var(--era-ink);
+}
+[data-era='e4'] .cover__ph-art {
+  background:
+    linear-gradient(var(--ph-accent), var(--ph-accent)) 0 0 / 100% 46% no-repeat,
+    linear-gradient(var(--era-accent-2), var(--era-accent-2)) 100% 46% / 34% 22% no-repeat;
+}
+[data-era='e4'] .cover__ph-label {
+  background: var(--era-ink);
+  color: var(--era-paper);
+}
+/* 2020s: smoke, film grain, one vivid accent */
+[data-era='e5'] .cover__ph-art {
+  background:
+    radial-gradient(circle at 50% 42%, var(--ph-accent) 0 9%, transparent 9.5%),
+    radial-gradient(60% 50% at 50% 42%, rgb(232 225 214 / 0.12), transparent 70%),
+    var(--era-texture);
+}
+
+/* ---------- Detail dialog ---------- */
+
+.detail {
+  width: min(1080px, calc(100vw - 24px));
+  max-height: calc(100svh - 24px);
+  padding: 0;
+  border: 0;
+  overflow: auto;
+  overscroll-behavior: contain;
+  background: var(--era-bg, var(--vinyl));
+  color: var(--era-fg, var(--paper));
+  box-shadow: 0 40px 90px -30px rgb(0 0 0 / 0.8);
+}
+.detail::backdrop {
+  background: rgb(17 17 17 / 0.86);
+}
+.detail[open] {
+  animation: detail-in 420ms var(--ease-out) both;
+}
+.detail[open]::backdrop {
+  animation: fade-in 300ms linear both;
+}
+@keyframes detail-in {
+  from {
+    opacity: 0;
+    transform: translateY(18px) scale(0.985);
+  }
+}
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+}
+
+.detail__inner {
+  position: relative;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1.05fr);
+  min-height: min(640px, calc(100svh - 24px));
+}
+
+.detail__stage {
+  position: relative;
+  display: grid;
+  place-items: center start;
+  padding: clamp(28px, 5vw, 64px);
+  padding-right: 0;
+  overflow: hidden;
+  background: var(--era-texture), var(--era-bg);
+  background-blend-mode: var(--era-texture-blend), normal;
+}
+.detail__jacket {
+  position: relative;
+  z-index: 1;
+  width: min(100%, 420px);
+  aspect-ratio: 1;
+  box-shadow:
+    0 2px 2px rgb(0 0 0 / 0.3),
+    0 30px 50px -20px rgb(0 0 0 / 0.7);
+}
+.detail__disc {
+  left: clamp(28px, 5vw, 64px);
+  width: min(calc(100% - clamp(28px, 5vw, 64px)), 420px);
+  top: 50%;
+  translate: 0 -50%;
+  animation: disc-out 900ms 120ms var(--ease-out) both;
+}
+@keyframes disc-out {
+  from {
+    transform: translateX(0) rotate(0deg);
+  }
+  to {
+    transform: translateX(46%) rotate(120deg);
+  }
+}
+
+.detail__info {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  padding: clamp(28px, 4vw, 56px);
+  padding-top: clamp(56px, 6vw, 72px);
+  animation: info-in 600ms 420ms var(--ease-out) both;
+  font-family: var(--narrator);
+}
+@keyframes info-in {
+  from {
+    opacity: 0;
+    transform: translateX(16px);
+  }
+}
+.detail__cat,
+.detail__facts dt,
+.detail__small-head,
+.detail__credit {
+  font-family: var(--mono);
+  font-size: 12px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.detail__cat {
+  color: var(--era-muted);
+}
+.detail__title {
+  font-size: clamp(36px, 5vw, 64px);
+  text-wrap: balance;
+}
+.detail__artist {
+  font-size: 19px;
+  font-style: italic;
+  margin-top: -6px;
+}
+.detail__facts {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px 24px;
+  padding-block: 18px;
+  border-block: 1px solid color-mix(in srgb, var(--era-fg) 28%, transparent);
+}
+.detail__facts dt {
+  color: var(--era-muted);
+  margin-bottom: 4px;
+}
+.detail__facts dd {
+  margin: 0;
+  font-family: var(--mono);
+  font-size: 13.5px;
+  line-height: 1.45;
+}
+.detail__notes {
+  font-size: 17px;
+  line-height: 1.6;
+  max-width: 60ch;
+}
+.detail__listen {
+  align-self: flex-start;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 18px 12px 14px;
+  background: var(--era-fg);
+  color: var(--era-bg);
+  font-family: var(--mono);
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: transform 200ms var(--ease-out);
+}
+.detail__listen svg {
+  width: 14px;
+  height: 14px;
+}
+.detail__listen:hover {
+  transform: translateX(3px);
+}
+.detail__listen--empty {
+  background: transparent;
+  color: var(--era-muted);
+  outline: 1px dashed currentColor;
+}
+.detail__verify ul {
+  margin-top: 6px;
+  font-family: var(--mono);
+  font-size: 12.5px;
+  line-height: 1.5;
+  color: var(--era-muted);
+}
+.detail__verify li::before {
+  content: '— ';
+}
+.detail__credit {
+  margin-top: auto;
+  font-size: 11px;
+  line-height: 1.6;
+  text-transform: none;
+  letter-spacing: 0.02em;
+  color: var(--era-muted);
+}
+.detail__credit a {
+  margin-left: 0.6em;
+  text-underline-offset: 3px;
+}
+.detail__close {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  z-index: 3;
+  display: grid;
+  place-items: center;
+  width: 44px;
+  height: 44px;
+  border: 1px solid color-mix(in srgb, var(--era-fg) 40%, transparent);
+  background: var(--era-bg);
+  color: var(--era-fg);
+  transition: background 160ms, color 160ms;
+}
+.detail__close:hover {
+  background: var(--era-fg);
+  color: var(--era-bg);
+}
+.detail {
+  --focus: var(--era-accent-1, var(--label-red));
+}
+
+@media (max-width: 760px) {
+  .detail__inner {
+    grid-template-columns: 1fr;
+  }
+  .detail__stage {
+    padding: 56px 0 24px 24px;
+  }
+  .detail__jacket {
+    width: 62vw;
+  }
+  .detail__disc {
+    left: 24px;
+    width: 62vw;
+  }
+  .detail__info {
+    padding: 24px 22px 32px;
+  }
+  .detail__facts {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ---------- Mobile vinyl nav ---------- */
+
+.vnav {
+  position: fixed;
+  z-index: 60;
+  top: max(10px, env(safe-area-inset-top));
+  right: 10px;
+  display: none;
+}
+@media (max-width: 899px) {
+  .vnav {
+    display: block;
+  }
+}
+.vnav__btn {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 5px 14px 5px 5px;
+  border: 0;
+  border-radius: 999px;
+  background: var(--chrome-bg);
+  color: var(--chrome-fg);
+  font-family: var(--mono);
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  box-shadow: 0 6px 18px -8px rgb(0 0 0 / 0.6);
+  transition: background 500ms var(--ease-out), color 500ms var(--ease-out);
+}
+.vnav__disc {
+  position: relative;
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  background:
+    radial-gradient(circle, var(--chrome-bg) 0 7%, var(--chrome-accent) 8% 30%, #0c0c0c 31%),
+    repeating-radial-gradient(circle, #151515 0 1px, #262626 1.5px 2px);
+  transform: rotate(calc(var(--scroll, 0) * 1440deg));
+}
+.vnav__label {
+  position: absolute;
+  top: 18%;
+  left: 47%;
+  width: 6%;
+  height: 22%;
+  background: rgb(255 255 255 / 0.55);
+}
+.vnav__menu {
+  position: absolute;
+  top: calc(100% + 8px);
+  right: 0;
+  width: min(300px, calc(100vw - 20px));
+  padding: 8px;
+  background: var(--vinyl);
+  color: var(--paper);
+  box-shadow: 0 20px 40px -16px rgb(0 0 0 / 0.7);
+}
+.vnav__menu a {
+  display: block;
+  padding: 12px 10px;
+  font-family: var(--narrator);
+  font-size: 15px;
+  text-decoration: none;
+  border-bottom: 1px solid rgb(243 235 221 / 0.12);
+}
+.vnav__menu a[aria-current='true'] {
+  color: var(--paper);
+  text-decoration: underline 2px var(--label-red);
+  text-underline-offset: 4px;
+}
+.vnav__yr {
+  display: block;
+  font-family: var(--mono);
+  font-size: 11px;
+  letter-spacing: 0.06em;
+  opacity: 0.75;
+}
+
+/* ---------- Coming soon ghosts ---------- */
+
+.soon__ghosts {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 12px;
+}
+.soon__ghost {
+  aspect-ratio: 1;
+  border: 1.5px dashed color-mix(in srgb, currentColor 45%, transparent);
+}
+@media (max-width: 640px) {
+  .soon__ghosts {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .sl__jacket {
+    transform: none !important;
+  }
+  .detail__disc {
+    animation: none;
+    transform: translateX(46%) rotate(120deg);
+  }
+}

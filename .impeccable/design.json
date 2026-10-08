@@ -1,0 +1,1074 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-07T14:11:10.699Z",
+  "title": "Design System: Sleeve",
+  "extensions": {
+    "colorMeta": {
+      "vinyl": {
+        "role": "neutral",
+        "displayName": "Vinyl",
+        "canonical": "#111111",
+        "tonalRamp": [
+          "oklch(15% 0 89.9)",
+          "oklch(26.4% 0 89.9)",
+          "oklch(37.9% 0 89.9)",
+          "oklch(49.3% 0 89.9)",
+          "oklch(60.7% 0 89.9)",
+          "oklch(72.1% 0 89.9)",
+          "oklch(83.6% 0 89.9)",
+          "oklch(95% 0 89.9)"
+        ]
+      },
+      "paper": {
+        "role": "neutral",
+        "displayName": "Label Paper",
+        "canonical": "#f3ebdd",
+        "tonalRamp": [
+          "oklch(15% 0.021 81.8)",
+          "oklch(26.4% 0.021 81.8)",
+          "oklch(37.9% 0.021 81.8)",
+          "oklch(49.3% 0.021 81.8)",
+          "oklch(60.7% 0.021 81.8)",
+          "oklch(72.1% 0.021 81.8)",
+          "oklch(83.6% 0.021 81.8)",
+          "oklch(95% 0.021 81.8)"
+        ]
+      },
+      "label-red": {
+        "role": "primary",
+        "displayName": "Label Red",
+        "canonical": "#c8321e",
+        "tonalRamp": [
+          "oklch(15% 0.113 31)",
+          "oklch(26.4% 0.183 31)",
+          "oklch(37.9% 0.19 31)",
+          "oklch(49.3% 0.19 31)",
+          "oklch(60.7% 0.19 31)",
+          "oklch(72.1% 0.19 31)",
+          "oklch(83.6% 0.19 31)",
+          "oklch(95% 0.174 31)"
+        ]
+      },
+      "label-red-ink": {
+        "role": "primary",
+        "displayName": "Label Red Ink",
+        "canonical": "#a8281a",
+        "tonalRamp": [
+          "oklch(15% 0.113 30.3)",
+          "oklch(26.4% 0.167 30.3)",
+          "oklch(37.9% 0.167 30.3)",
+          "oklch(49.3% 0.167 30.3)",
+          "oklch(60.7% 0.167 30.3)",
+          "oklch(72.1% 0.167 30.3)",
+          "oklch(83.6% 0.167 30.3)",
+          "oklch(95% 0.167 30.3)"
+        ]
+      },
+      "plaster-wall": {
+        "role": "neutral",
+        "displayName": "Plaster Wall",
+        "canonical": "#7f9894",
+        "tonalRamp": [
+          "oklch(15% 0.029 184.7)",
+          "oklch(26.4% 0.029 184.7)",
+          "oklch(37.9% 0.029 184.7)",
+          "oklch(49.3% 0.029 184.7)",
+          "oklch(60.7% 0.029 184.7)",
+          "oklch(72.1% 0.029 184.7)",
+          "oklch(83.6% 0.029 184.7)",
+          "oklch(95% 0.029 184.7)"
+        ]
+      },
+      "page-edge": {
+        "role": "neutral",
+        "displayName": "Page Edge",
+        "canonical": "#6f7f7b",
+        "tonalRamp": [
+          "oklch(15% 0.02 178.9)",
+          "oklch(26.4% 0.02 178.9)",
+          "oklch(37.9% 0.02 178.9)",
+          "oklch(49.3% 0.02 178.9)",
+          "oklch(60.7% 0.02 178.9)",
+          "oklch(72.1% 0.02 178.9)",
+          "oklch(83.6% 0.02 178.9)",
+          "oklch(95% 0.02 178.9)"
+        ]
+      },
+      "rail-soot": {
+        "role": "neutral",
+        "displayName": "Rail Soot",
+        "canonical": "#3b3833",
+        "tonalRamp": [
+          "oklch(15% 0.01 80.7)",
+          "oklch(26.4% 0.01 80.7)",
+          "oklch(37.9% 0.01 80.7)",
+          "oklch(49.3% 0.01 80.7)",
+          "oklch(60.7% 0.01 80.7)",
+          "oklch(72.1% 0.01 80.7)",
+          "oklch(83.6% 0.01 80.7)",
+          "oklch(95% 0.01 80.7)"
+        ]
+      },
+      "packing-tape": {
+        "role": "neutral",
+        "displayName": "Packing Tape",
+        "canonical": "#e8cd96",
+        "tonalRamp": [
+          "oklch(15% 0.077 84.7)",
+          "oklch(26.4% 0.077 84.7)",
+          "oklch(37.9% 0.077 84.7)",
+          "oklch(49.3% 0.077 84.7)",
+          "oklch(60.7% 0.077 84.7)",
+          "oklch(72.1% 0.077 84.7)",
+          "oklch(83.6% 0.077 84.7)",
+          "oklch(95% 0.077 84.7)"
+        ]
+      },
+      "proof-grey": {
+        "role": "neutral",
+        "displayName": "Proof Grey",
+        "canonical": "#4b4640",
+        "tonalRamp": [
+          "oklch(15% 0.012 72.5)",
+          "oklch(26.4% 0.012 72.5)",
+          "oklch(37.9% 0.012 72.5)",
+          "oklch(49.3% 0.012 72.5)",
+          "oklch(60.7% 0.012 72.5)",
+          "oklch(72.1% 0.012 72.5)",
+          "oklch(83.6% 0.012 72.5)",
+          "oklch(95% 0.012 72.5)"
+        ]
+      },
+      "e1-bg": {
+        "role": "era",
+        "displayName": "Era 1 (1970s) bg",
+        "canonical": "#2b1a10",
+        "tonalRamp": [
+          "oklch(15% 0.033 51.1)",
+          "oklch(26.4% 0.033 51.1)",
+          "oklch(37.9% 0.033 51.1)",
+          "oklch(49.3% 0.033 51.1)",
+          "oklch(60.7% 0.033 51.1)",
+          "oklch(72.1% 0.033 51.1)",
+          "oklch(83.6% 0.033 51.1)",
+          "oklch(95% 0.033 51.1)"
+        ]
+      },
+      "e1-fg": {
+        "role": "era",
+        "displayName": "Era 1 (1970s) fg",
+        "canonical": "#f2e6c9",
+        "tonalRamp": [
+          "oklch(15% 0.04 88.2)",
+          "oklch(26.4% 0.04 88.2)",
+          "oklch(37.9% 0.04 88.2)",
+          "oklch(49.3% 0.04 88.2)",
+          "oklch(60.7% 0.04 88.2)",
+          "oklch(72.1% 0.04 88.2)",
+          "oklch(83.6% 0.04 88.2)",
+          "oklch(95% 0.04 88.2)"
+        ]
+      },
+      "e1-muted": {
+        "role": "era",
+        "displayName": "Era 1 (1970s) muted",
+        "canonical": "#d9c7a4",
+        "tonalRamp": [
+          "oklch(15% 0.051 83.9)",
+          "oklch(26.4% 0.051 83.9)",
+          "oklch(37.9% 0.051 83.9)",
+          "oklch(49.3% 0.051 83.9)",
+          "oklch(60.7% 0.051 83.9)",
+          "oklch(72.1% 0.051 83.9)",
+          "oklch(83.6% 0.051 83.9)",
+          "oklch(95% 0.051 83.9)"
+        ]
+      },
+      "e1-accent-1": {
+        "role": "era",
+        "displayName": "Era 1 (1970s) accent-1",
+        "canonical": "#d98e04",
+        "tonalRamp": [
+          "oklch(15% 0.113 71.9)",
+          "oklch(26.4% 0.151 71.9)",
+          "oklch(37.9% 0.151 71.9)",
+          "oklch(49.3% 0.151 71.9)",
+          "oklch(60.7% 0.151 71.9)",
+          "oklch(72.1% 0.151 71.9)",
+          "oklch(83.6% 0.151 71.9)",
+          "oklch(95% 0.151 71.9)"
+        ]
+      },
+      "e1-accent-2": {
+        "role": "era",
+        "displayName": "Era 1 (1970s) accent-2",
+        "canonical": "#a63a1e",
+        "tonalRamp": [
+          "oklch(15% 0.113 35.3)",
+          "oklch(26.4% 0.148 35.3)",
+          "oklch(37.9% 0.148 35.3)",
+          "oklch(49.3% 0.148 35.3)",
+          "oklch(60.7% 0.148 35.3)",
+          "oklch(72.1% 0.148 35.3)",
+          "oklch(83.6% 0.148 35.3)",
+          "oklch(95% 0.148 35.3)"
+        ]
+      },
+      "e1-accent-3": {
+        "role": "era",
+        "displayName": "Era 1 (1970s) accent-3",
+        "canonical": "#5c6b2e",
+        "tonalRamp": [
+          "oklch(15% 0.087 121.1)",
+          "oklch(26.4% 0.087 121.1)",
+          "oklch(37.9% 0.087 121.1)",
+          "oklch(49.3% 0.087 121.1)",
+          "oklch(60.7% 0.087 121.1)",
+          "oklch(72.1% 0.087 121.1)",
+          "oklch(83.6% 0.087 121.1)",
+          "oklch(95% 0.087 121.1)"
+        ]
+      },
+      "e1-paper": {
+        "role": "era",
+        "displayName": "Era 1 (1970s) paper",
+        "canonical": "#f2e6c9",
+        "tonalRamp": [
+          "oklch(15% 0.04 88.2)",
+          "oklch(26.4% 0.04 88.2)",
+          "oklch(37.9% 0.04 88.2)",
+          "oklch(49.3% 0.04 88.2)",
+          "oklch(60.7% 0.04 88.2)",
+          "oklch(72.1% 0.04 88.2)",
+          "oklch(83.6% 0.04 88.2)",
+          "oklch(95% 0.04 88.2)"
+        ]
+      },
+      "e1-ink": {
+        "role": "era",
+        "displayName": "Era 1 (1970s) ink",
+        "canonical": "#2b1a10",
+        "tonalRamp": [
+          "oklch(15% 0.033 51.1)",
+          "oklch(26.4% 0.033 51.1)",
+          "oklch(37.9% 0.033 51.1)",
+          "oklch(49.3% 0.033 51.1)",
+          "oklch(60.7% 0.033 51.1)",
+          "oklch(72.1% 0.033 51.1)",
+          "oklch(83.6% 0.033 51.1)",
+          "oklch(95% 0.033 51.1)"
+        ]
+      },
+      "e2-bg": {
+        "role": "era",
+        "displayName": "Era 2 (1980s) bg",
+        "canonical": "#4b2a6b",
+        "tonalRamp": [
+          "oklch(15% 0.111 304.9)",
+          "oklch(26.4% 0.111 304.9)",
+          "oklch(37.9% 0.111 304.9)",
+          "oklch(49.3% 0.111 304.9)",
+          "oklch(60.7% 0.111 304.9)",
+          "oklch(72.1% 0.111 304.9)",
+          "oklch(83.6% 0.111 304.9)",
+          "oklch(95% 0.111 304.9)"
+        ]
+      },
+      "e2-fg": {
+        "role": "era",
+        "displayName": "Era 2 (1980s) fg",
+        "canonical": "#f5e9d3",
+        "tonalRamp": [
+          "oklch(15% 0.032 82.8)",
+          "oklch(26.4% 0.032 82.8)",
+          "oklch(37.9% 0.032 82.8)",
+          "oklch(49.3% 0.032 82.8)",
+          "oklch(60.7% 0.032 82.8)",
+          "oklch(72.1% 0.032 82.8)",
+          "oklch(83.6% 0.032 82.8)",
+          "oklch(95% 0.032 82.8)"
+        ]
+      },
+      "e2-muted": {
+        "role": "era",
+        "displayName": "Era 2 (1980s) muted",
+        "canonical": "#e3d3ec",
+        "tonalRamp": [
+          "oklch(15% 0.038 313.6)",
+          "oklch(26.4% 0.038 313.6)",
+          "oklch(37.9% 0.038 313.6)",
+          "oklch(49.3% 0.038 313.6)",
+          "oklch(60.7% 0.038 313.6)",
+          "oklch(72.1% 0.038 313.6)",
+          "oklch(83.6% 0.038 313.6)",
+          "oklch(95% 0.038 313.6)"
+        ]
+      },
+      "e2-accent-1": {
+        "role": "era",
+        "displayName": "Era 2 (1980s) accent-1",
+        "canonical": "#d4a017",
+        "tonalRamp": [
+          "oklch(15% 0.113 84.3)",
+          "oklch(26.4% 0.146 84.3)",
+          "oklch(37.9% 0.146 84.3)",
+          "oklch(49.3% 0.146 84.3)",
+          "oklch(60.7% 0.146 84.3)",
+          "oklch(72.1% 0.146 84.3)",
+          "oklch(83.6% 0.146 84.3)",
+          "oklch(95% 0.146 84.3)"
+        ]
+      },
+      "e2-accent-2": {
+        "role": "era",
+        "displayName": "Era 2 (1980s) accent-2",
+        "canonical": "#1f6f78",
+        "tonalRamp": [
+          "oklch(15% 0.075 206)",
+          "oklch(26.4% 0.075 206)",
+          "oklch(37.9% 0.075 206)",
+          "oklch(49.3% 0.075 206)",
+          "oklch(60.7% 0.075 206)",
+          "oklch(72.1% 0.075 206)",
+          "oklch(83.6% 0.075 206)",
+          "oklch(95% 0.075 206)"
+        ]
+      },
+      "e2-accent-3": {
+        "role": "era",
+        "displayName": "Era 2 (1980s) accent-3",
+        "canonical": "#f5e9d3",
+        "tonalRamp": [
+          "oklch(15% 0.032 82.8)",
+          "oklch(26.4% 0.032 82.8)",
+          "oklch(37.9% 0.032 82.8)",
+          "oklch(49.3% 0.032 82.8)",
+          "oklch(60.7% 0.032 82.8)",
+          "oklch(72.1% 0.032 82.8)",
+          "oklch(83.6% 0.032 82.8)",
+          "oklch(95% 0.032 82.8)"
+        ]
+      },
+      "e2-paper": {
+        "role": "era",
+        "displayName": "Era 2 (1980s) paper",
+        "canonical": "#f5e9d3",
+        "tonalRamp": [
+          "oklch(15% 0.032 82.8)",
+          "oklch(26.4% 0.032 82.8)",
+          "oklch(37.9% 0.032 82.8)",
+          "oklch(49.3% 0.032 82.8)",
+          "oklch(60.7% 0.032 82.8)",
+          "oklch(72.1% 0.032 82.8)",
+          "oklch(83.6% 0.032 82.8)",
+          "oklch(95% 0.032 82.8)"
+        ]
+      },
+      "e2-ink": {
+        "role": "era",
+        "displayName": "Era 2 (1980s) ink",
+        "canonical": "#2e1844",
+        "tonalRamp": [
+          "oklch(15% 0.081 304.5)",
+          "oklch(26.4% 0.081 304.5)",
+          "oklch(37.9% 0.081 304.5)",
+          "oklch(49.3% 0.081 304.5)",
+          "oklch(60.7% 0.081 304.5)",
+          "oklch(72.1% 0.081 304.5)",
+          "oklch(83.6% 0.081 304.5)",
+          "oklch(95% 0.081 304.5)"
+        ]
+      },
+      "e3-bg": {
+        "role": "era",
+        "displayName": "Era 3 (CD era) bg",
+        "canonical": "#0a0a0a",
+        "tonalRamp": [
+          "oklch(15% 0 89.9)",
+          "oklch(26.4% 0 89.9)",
+          "oklch(37.9% 0 89.9)",
+          "oklch(49.3% 0 89.9)",
+          "oklch(60.7% 0 89.9)",
+          "oklch(72.1% 0 89.9)",
+          "oklch(83.6% 0 89.9)",
+          "oklch(95% 0 89.9)"
+        ]
+      },
+      "e3-fg": {
+        "role": "era",
+        "displayName": "Era 3 (CD era) fg",
+        "canonical": "#ffffff",
+        "tonalRamp": [
+          "oklch(15% 0 89.9)",
+          "oklch(26.4% 0 89.9)",
+          "oklch(37.9% 0 89.9)",
+          "oklch(49.3% 0 89.9)",
+          "oklch(60.7% 0 89.9)",
+          "oklch(72.1% 0 89.9)",
+          "oklch(83.6% 0 89.9)",
+          "oklch(95% 0 89.9)"
+        ]
+      },
+      "e3-muted": {
+        "role": "era",
+        "displayName": "Era 3 (CD era) muted",
+        "canonical": "#c0c6cc",
+        "tonalRamp": [
+          "oklch(15% 0.011 248)",
+          "oklch(26.4% 0.011 248)",
+          "oklch(37.9% 0.011 248)",
+          "oklch(49.3% 0.011 248)",
+          "oklch(60.7% 0.011 248)",
+          "oklch(72.1% 0.011 248)",
+          "oklch(83.6% 0.011 248)",
+          "oklch(95% 0.011 248)"
+        ]
+      },
+      "e3-accent-1": {
+        "role": "era",
+        "displayName": "Era 3 (CD era) accent-1",
+        "canonical": "#c0c6cc",
+        "tonalRamp": [
+          "oklch(15% 0.011 248)",
+          "oklch(26.4% 0.011 248)",
+          "oklch(37.9% 0.011 248)",
+          "oklch(49.3% 0.011 248)",
+          "oklch(60.7% 0.011 248)",
+          "oklch(72.1% 0.011 248)",
+          "oklch(83.6% 0.011 248)",
+          "oklch(95% 0.011 248)"
+        ]
+      },
+      "e3-accent-2": {
+        "role": "era",
+        "displayName": "Era 3 (CD era) accent-2",
+        "canonical": "#6a93ff",
+        "tonalRamp": [
+          "oklch(15% 0.113 266.4)",
+          "oklch(26.4% 0.166 266.4)",
+          "oklch(37.9% 0.166 266.4)",
+          "oklch(49.3% 0.166 266.4)",
+          "oklch(60.7% 0.166 266.4)",
+          "oklch(72.1% 0.166 266.4)",
+          "oklch(83.6% 0.166 266.4)",
+          "oklch(95% 0.166 266.4)"
+        ]
+      },
+      "e3-accent-3": {
+        "role": "era",
+        "displayName": "Era 3 (CD era) accent-3",
+        "canonical": "#1e5bff",
+        "tonalRamp": [
+          "oklch(15% 0.113 264)",
+          "oklch(26.4% 0.183 264)",
+          "oklch(37.9% 0.25 264)",
+          "oklch(49.3% 0.25 264)",
+          "oklch(60.7% 0.25 264)",
+          "oklch(72.1% 0.25 264)",
+          "oklch(83.6% 0.245 264)",
+          "oklch(95% 0.174 264)"
+        ]
+      },
+      "e3-paper": {
+        "role": "era",
+        "displayName": "Era 3 (CD era) paper",
+        "canonical": "#e9edf1",
+        "tonalRamp": [
+          "oklch(15% 0.007 247.9)",
+          "oklch(26.4% 0.007 247.9)",
+          "oklch(37.9% 0.007 247.9)",
+          "oklch(49.3% 0.007 247.9)",
+          "oklch(60.7% 0.007 247.9)",
+          "oklch(72.1% 0.007 247.9)",
+          "oklch(83.6% 0.007 247.9)",
+          "oklch(95% 0.007 247.9)"
+        ]
+      },
+      "e3-ink": {
+        "role": "era",
+        "displayName": "Era 3 (CD era) ink",
+        "canonical": "#0a0a0a",
+        "tonalRamp": [
+          "oklch(15% 0 89.9)",
+          "oklch(26.4% 0 89.9)",
+          "oklch(37.9% 0 89.9)",
+          "oklch(49.3% 0 89.9)",
+          "oklch(60.7% 0 89.9)",
+          "oklch(72.1% 0 89.9)",
+          "oklch(83.6% 0 89.9)",
+          "oklch(95% 0 89.9)"
+        ]
+      },
+      "e4-bg": {
+        "role": "era",
+        "displayName": "Era 4 (2010s) bg",
+        "canonical": "#faf7f2",
+        "tonalRamp": [
+          "oklch(15% 0.007 80.7)",
+          "oklch(26.4% 0.007 80.7)",
+          "oklch(37.9% 0.007 80.7)",
+          "oklch(49.3% 0.007 80.7)",
+          "oklch(60.7% 0.007 80.7)",
+          "oklch(72.1% 0.007 80.7)",
+          "oklch(83.6% 0.007 80.7)",
+          "oklch(95% 0.007 80.7)"
+        ]
+      },
+      "e4-fg": {
+        "role": "era",
+        "displayName": "Era 4 (2010s) fg",
+        "canonical": "#141414",
+        "tonalRamp": [
+          "oklch(15% 0 89.9)",
+          "oklch(26.4% 0 89.9)",
+          "oklch(37.9% 0 89.9)",
+          "oklch(49.3% 0 89.9)",
+          "oklch(60.7% 0 89.9)",
+          "oklch(72.1% 0 89.9)",
+          "oklch(83.6% 0 89.9)",
+          "oklch(95% 0 89.9)"
+        ]
+      },
+      "e4-muted": {
+        "role": "era",
+        "displayName": "Era 4 (2010s) muted",
+        "canonical": "#4a4540",
+        "tonalRamp": [
+          "oklch(15% 0.011 67.5)",
+          "oklch(26.4% 0.011 67.5)",
+          "oklch(37.9% 0.011 67.5)",
+          "oklch(49.3% 0.011 67.5)",
+          "oklch(60.7% 0.011 67.5)",
+          "oklch(72.1% 0.011 67.5)",
+          "oklch(83.6% 0.011 67.5)",
+          "oklch(95% 0.011 67.5)"
+        ]
+      },
+      "e4-accent-1": {
+        "role": "era",
+        "displayName": "Era 4 (2010s) accent-1",
+        "canonical": "#ff7a1a",
+        "tonalRamp": [
+          "oklch(15% 0.113 48.9)",
+          "oklch(26.4% 0.183 48.9)",
+          "oklch(37.9% 0.187 48.9)",
+          "oklch(49.3% 0.187 48.9)",
+          "oklch(60.7% 0.187 48.9)",
+          "oklch(72.1% 0.187 48.9)",
+          "oklch(83.6% 0.187 48.9)",
+          "oklch(95% 0.174 48.9)"
+        ]
+      },
+      "e4-accent-2": {
+        "role": "era",
+        "displayName": "Era 4 (2010s) accent-2",
+        "canonical": "#2db34a",
+        "tonalRamp": [
+          "oklch(15% 0.113 146.5)",
+          "oklch(26.4% 0.183 146.5)",
+          "oklch(37.9% 0.184 146.5)",
+          "oklch(49.3% 0.184 146.5)",
+          "oklch(60.7% 0.184 146.5)",
+          "oklch(72.1% 0.184 146.5)",
+          "oklch(83.6% 0.184 146.5)",
+          "oklch(95% 0.174 146.5)"
+        ]
+      },
+      "e4-accent-3": {
+        "role": "era",
+        "displayName": "Era 4 (2010s) accent-3",
+        "canonical": "#ff3d8b",
+        "tonalRamp": [
+          "oklch(15% 0.113 1.9)",
+          "oklch(26.4% 0.183 1.9)",
+          "oklch(37.9% 0.233 1.9)",
+          "oklch(49.3% 0.233 1.9)",
+          "oklch(60.7% 0.233 1.9)",
+          "oklch(72.1% 0.233 1.9)",
+          "oklch(83.6% 0.233 1.9)",
+          "oklch(95% 0.174 1.9)"
+        ]
+      },
+      "e4-paper": {
+        "role": "era",
+        "displayName": "Era 4 (2010s) paper",
+        "canonical": "#faf7f2",
+        "tonalRamp": [
+          "oklch(15% 0.007 80.7)",
+          "oklch(26.4% 0.007 80.7)",
+          "oklch(37.9% 0.007 80.7)",
+          "oklch(49.3% 0.007 80.7)",
+          "oklch(60.7% 0.007 80.7)",
+          "oklch(72.1% 0.007 80.7)",
+          "oklch(83.6% 0.007 80.7)",
+          "oklch(95% 0.007 80.7)"
+        ]
+      },
+      "e4-ink": {
+        "role": "era",
+        "displayName": "Era 4 (2010s) ink",
+        "canonical": "#141414",
+        "tonalRamp": [
+          "oklch(15% 0 89.9)",
+          "oklch(26.4% 0 89.9)",
+          "oklch(37.9% 0 89.9)",
+          "oklch(49.3% 0 89.9)",
+          "oklch(60.7% 0 89.9)",
+          "oklch(72.1% 0 89.9)",
+          "oklch(83.6% 0 89.9)",
+          "oklch(95% 0 89.9)"
+        ]
+      },
+      "e5-bg": {
+        "role": "era",
+        "displayName": "Era 5 (2020s) bg",
+        "canonical": "#3a3a3d",
+        "tonalRamp": [
+          "oklch(15% 0.005 286.1)",
+          "oklch(26.4% 0.005 286.1)",
+          "oklch(37.9% 0.005 286.1)",
+          "oklch(49.3% 0.005 286.1)",
+          "oklch(60.7% 0.005 286.1)",
+          "oklch(72.1% 0.005 286.1)",
+          "oklch(83.6% 0.005 286.1)",
+          "oklch(95% 0.005 286.1)"
+        ]
+      },
+      "e5-fg": {
+        "role": "era",
+        "displayName": "Era 5 (2020s) fg",
+        "canonical": "#e8e1d6",
+        "tonalRamp": [
+          "oklch(15% 0.017 79.3)",
+          "oklch(26.4% 0.017 79.3)",
+          "oklch(37.9% 0.017 79.3)",
+          "oklch(49.3% 0.017 79.3)",
+          "oklch(60.7% 0.017 79.3)",
+          "oklch(72.1% 0.017 79.3)",
+          "oklch(83.6% 0.017 79.3)",
+          "oklch(95% 0.017 79.3)"
+        ]
+      },
+      "e5-muted": {
+        "role": "era",
+        "displayName": "Era 5 (2020s) muted",
+        "canonical": "#c9c1b4",
+        "tonalRamp": [
+          "oklch(15% 0.02 80.1)",
+          "oklch(26.4% 0.02 80.1)",
+          "oklch(37.9% 0.02 80.1)",
+          "oklch(49.3% 0.02 80.1)",
+          "oklch(60.7% 0.02 80.1)",
+          "oklch(72.1% 0.02 80.1)",
+          "oklch(83.6% 0.02 80.1)",
+          "oklch(95% 0.02 80.1)"
+        ]
+      },
+      "e5-accent-1": {
+        "role": "era",
+        "displayName": "Era 5 (2020s) accent-1",
+        "canonical": "#e8e1d6",
+        "tonalRamp": [
+          "oklch(15% 0.017 79.3)",
+          "oklch(26.4% 0.017 79.3)",
+          "oklch(37.9% 0.017 79.3)",
+          "oklch(49.3% 0.017 79.3)",
+          "oklch(60.7% 0.017 79.3)",
+          "oklch(72.1% 0.017 79.3)",
+          "oklch(83.6% 0.017 79.3)",
+          "oklch(95% 0.017 79.3)"
+        ]
+      },
+      "e5-accent-2": {
+        "role": "era",
+        "displayName": "Era 5 (2020s) accent-2",
+        "canonical": "#ff6a3d",
+        "tonalRamp": [
+          "oklch(15% 0.113 37.1)",
+          "oklch(26.4% 0.183 37.1)",
+          "oklch(37.9% 0.192 37.1)",
+          "oklch(49.3% 0.192 37.1)",
+          "oklch(60.7% 0.192 37.1)",
+          "oklch(72.1% 0.192 37.1)",
+          "oklch(83.6% 0.192 37.1)",
+          "oklch(95% 0.174 37.1)"
+        ]
+      },
+      "e5-accent-3": {
+        "role": "era",
+        "displayName": "Era 5 (2020s) accent-3",
+        "canonical": "#3f4a3a",
+        "tonalRamp": [
+          "oklch(15% 0.03 135.9)",
+          "oklch(26.4% 0.03 135.9)",
+          "oklch(37.9% 0.03 135.9)",
+          "oklch(49.3% 0.03 135.9)",
+          "oklch(60.7% 0.03 135.9)",
+          "oklch(72.1% 0.03 135.9)",
+          "oklch(83.6% 0.03 135.9)",
+          "oklch(95% 0.03 135.9)"
+        ]
+      },
+      "e5-paper": {
+        "role": "era",
+        "displayName": "Era 5 (2020s) paper",
+        "canonical": "#e8e1d6",
+        "tonalRamp": [
+          "oklch(15% 0.017 79.3)",
+          "oklch(26.4% 0.017 79.3)",
+          "oklch(37.9% 0.017 79.3)",
+          "oklch(49.3% 0.017 79.3)",
+          "oklch(60.7% 0.017 79.3)",
+          "oklch(72.1% 0.017 79.3)",
+          "oklch(83.6% 0.017 79.3)",
+          "oklch(95% 0.017 79.3)"
+        ]
+      },
+      "e5-ink": {
+        "role": "era",
+        "displayName": "Era 5 (2020s) ink",
+        "canonical": "#232325",
+        "tonalRamp": [
+          "oklch(15% 0.004 286.1)",
+          "oklch(26.4% 0.004 286.1)",
+          "oklch(37.9% 0.004 286.1)",
+          "oklch(49.3% 0.004 286.1)",
+          "oklch(60.7% 0.004 286.1)",
+          "oklch(72.1% 0.004 286.1)",
+          "oklch(83.6% 0.004 286.1)",
+          "oklch(95% 0.004 286.1)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display-e1": {
+        "displayName": "Era 1 display",
+        "purpose": "Londrina Solid, uppercase: 1970s title cards, crate heads, designer names, essay drop cap."
+      },
+      "display-e2": {
+        "displayName": "Era 2 display",
+        "purpose": "Ultra, uppercase, ink outline and hard accent-2 drop shadow (pinned by the brief)."
+      },
+      "display-e3": {
+        "displayName": "Era 3 display",
+        "purpose": "Unbounded, uppercase, chrome gradient clipped to text with a blue drop shadow; runs smaller."
+      },
+      "display-e4": {
+        "displayName": "Era 4 display",
+        "purpose": "Archivo at width 112%, sentence case, tight tracking."
+      },
+      "display-e5": {
+        "displayName": "Era 5 display",
+        "purpose": "Bodoni Moda italic at optical size 96, sentence case."
+      },
+      "wordmark": {
+        "displayName": "Wordmark",
+        "purpose": "SLEEVE as six torn scraps, one era face each."
+      },
+      "headline": {
+        "displayName": "Wall headline",
+        "purpose": "Literata 700 headings on the bare wall and the closing bill."
+      },
+      "title": {
+        "displayName": "Section title",
+        "purpose": "Era display face for crate and coming-soon headings."
+      },
+      "tagline": {
+        "displayName": "Tagline",
+        "purpose": "Literata italic on the packing-tape strip."
+      },
+      "body": {
+        "displayName": "Narrator",
+        "purpose": "Literata for all prose in every era; essays max 64ch."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "JetBrains Mono uppercase for stamps, cue, buttons, fact labels."
+      },
+      "caption": {
+        "displayName": "Caption",
+        "purpose": "JetBrains Mono 11px for tags, credits, rail, proof captions."
+      }
+    },
+    "shadows": [
+      {
+        "name": "paste-contact",
+        "value": "0 1px 1px rgb(0 0 0 / 0.5), 0 3px 5px -2px rgb(0 0 0 / 0.35)",
+        "purpose": "Hero bills pasted flat."
+      },
+      {
+        "name": "torn-sheet",
+        "value": "drop-shadow(0 1px 1.5px rgb(0 0 0 / 0.4))",
+        "purpose": "Masked paper sheets on the wall (filter, follows the torn edge)."
+      },
+      {
+        "name": "tag",
+        "value": "0 2px 4px rgb(0 0 0 / 0.3)",
+        "purpose": "Crate tags and masking tape."
+      },
+      {
+        "name": "taped-sheet",
+        "value": "0 16px 30px -18px rgb(0 0 0 / 0.7)",
+        "purpose": "Spotlight notes."
+      },
+      {
+        "name": "proof",
+        "value": "0 20px 40px -24px rgb(0 0 0 / 0.75)",
+        "purpose": "Printer's proof sheet."
+      },
+      {
+        "name": "title-cover",
+        "value": "0 10px 20px -12px rgb(0 0 0 / 0.7)",
+        "purpose": "Repeated covers on era title cards."
+      },
+      {
+        "name": "layer-cast",
+        "value": "linear-gradient(rgb(0 0 0 / 0.45), transparent), 70px tall, blur(6px)",
+        "purpose": "Shadow a fresh era layer casts on the one beneath."
+      },
+      {
+        "name": "sleeve-rest",
+        "value": "0 1px 1px rgb(0 0 0 / 0.25), 0 10px 24px -10px rgb(0 0 0 / 0.55)",
+        "purpose": "Sleeve jacket at rest."
+      },
+      {
+        "name": "sleeve-lift",
+        "value": "0 2px 2px rgb(0 0 0 / 0.2), 0 22px 40px -14px rgb(0 0 0 / 0.6)",
+        "purpose": "Sleeve jacket on hover."
+      },
+      {
+        "name": "dialog",
+        "value": "0 40px 90px -30px rgb(0 0 0 / 0.8)",
+        "purpose": "Detail dialog over a vinyl backdrop at 86%."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease-out",
+        "value": "cubic-bezier(0.16, 1, 0.3, 1)",
+        "purpose": "Everything physical: slaps, paste, tilt, record pull."
+      },
+      {
+        "name": "ease-in-out",
+        "value": "cubic-bezier(0.65, 0, 0.35, 1)",
+        "purpose": "Loops (scroll cue bob)."
+      },
+      {
+        "name": "scrap-slap",
+        "value": "520ms, staggered 90ms, from scale(1.35) rotate(-8deg) and opacity 0",
+        "purpose": "Wordmark scraps and tape slapped on at load."
+      },
+      {
+        "name": "fan-spread",
+        "value": "1100ms, delay 300ms + 70ms per sleeve",
+        "purpose": "Hero fan spreads from a stack."
+      },
+      {
+        "name": "layer-paste",
+        "value": "translateY((1 - --enter) * 56px) rotate((1 - --enter) * -1.2deg)",
+        "purpose": "Scroll-linked paste-down of each era layer."
+      },
+      {
+        "name": "chrome-crossfade",
+        "value": "700ms ease-out on registered --chrome-bg/fg/accent",
+        "purpose": "Chrome follows the active era."
+      },
+      {
+        "name": "record-pull",
+        "value": "380ms, disc translateX(62%) rotate(200deg)",
+        "purpose": "Click on a sleeve before the dialog opens."
+      },
+      {
+        "name": "dialog-in",
+        "value": "420ms rise 18px and scale 0.985; info panel 600ms at 420ms delay",
+        "purpose": "Detail dialog entrance."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "all durations 0.001ms; layer transforms removed; record rests pulled",
+        "purpose": "prefers-reduced-motion."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "rail",
+        "value": "899px"
+      },
+      {
+        "name": "spotlight",
+        "value": "860px"
+      },
+      {
+        "name": "crate",
+        "value": "760px"
+      },
+      {
+        "name": "essay",
+        "value": "640px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Listen Button",
+      "kind": "button",
+      "refersTo": "listen-button",
+      "description": "Dialog call to listen: square, era ink on era paper, mono label with a filled play glyph; nudges right on hover.",
+      "html": "<a class=\"ds-listen\" href=\"#\"><svg viewBox=\"0 0 20 20\" width=\"14\" height=\"14\" fill=\"currentColor\" aria-hidden=\"true\"><path d=\"M6 4l10 6-10 6z\"/></svg>Listen to Zombie</a>",
+      "css": ".ds-listen{display:inline-flex;align-items:center;gap:10px;padding:12px 18px 12px 14px;background:#2b1a10;color:#f2e6c9;font-family:'JetBrains Mono Variable', ui-monospace, monospace;font-size:13px;font-weight:600;letter-spacing:.04em;text-transform:uppercase;text-decoration:none;border-radius:0;transition:transform 200ms cubic-bezier(.16,1,.3,1)}.ds-listen:hover{transform:translateX(3px)}.ds-listen:focus-visible{outline:2px solid #d98e04;outline-offset:3px}"
+    },
+    {
+      "name": "Listen Button (empty)",
+      "kind": "button",
+      "refersTo": "listen-button",
+      "description": "Honest empty state when no listen link exists yet.",
+      "html": "<p class=\"ds-listen-empty\">Listen link to be added</p>",
+      "css": ".ds-listen-empty{display:inline-flex;margin:0;padding:12px 18px 12px 14px;background:#f2e6c9;color:#635344;outline:1px dashed currentColor;font-family:'JetBrains Mono Variable', ui-monospace, monospace;font-size:13px;font-weight:600;letter-spacing:.04em;text-transform:uppercase}"
+    },
+    {
+      "name": "Scroll Cue",
+      "kind": "button",
+      "refersTo": "scroll-cue",
+      "description": "Square paper chip on the wall with a bobbing arrow; rotated 1 degree.",
+      "html": "<a class=\"ds-cue\" href=\"#\"><svg viewBox=\"0 0 20 20\" width=\"16\" height=\"16\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M10 3v13M4.5 10.5L10 16l5.5-5.5\"/></svg>Start pasting at 1970</a>",
+      "css": ".ds-cue{display:inline-flex;align-items:center;gap:10px;padding:9px 14px;background:var(--paper,#f3ebdd);color:var(--vinyl,#111111);font-family:'JetBrains Mono Variable', ui-monospace, monospace;font-size:12px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;text-decoration:none;transform:rotate(1deg)}.ds-cue svg{animation:ds-bob 1600ms cubic-bezier(.65,0,.35,1) infinite alternate}@keyframes ds-bob{to{transform:translateY(4px)}}.ds-cue:focus-visible{outline:2px solid #c8321e;outline-offset:3px}@media (prefers-reduced-motion:reduce){.ds-cue svg{animation:none}}"
+    },
+    {
+      "name": "Year Stamp",
+      "kind": "chip",
+      "refersTo": "year-stamp",
+      "description": "Flat inverted chip under each era title card: era fg on era bg, mono uppercase.",
+      "html": "<p class=\"ds-stamp\">1970–1979</p>",
+      "css": ".ds-stamp{display:inline-block;margin:0;padding:6px 12px;background:#f2e6c9;color:#2b1a10;font-family:'JetBrains Mono Variable', ui-monospace, monospace;font-size:13px;font-weight:700;letter-spacing:.08em;text-transform:uppercase}"
+    },
+    {
+      "name": "Crate Tag",
+      "kind": "chip",
+      "refersTo": "crate-tag",
+      "description": "Paper slip pinned across a crate sleeve: bold catalogue numeral, title, year with an honest VERIFY flag; slight tilt and tag shadow.",
+      "html": "<p class=\"ds-tag\"><b>S-01</b> Zombie · 1976 <span class=\"ds-verify\">VERIFY</span></p>",
+      "css": ".ds-tag{display:inline-block;margin:0;padding:5px 8px;background:#f3ebdd;color:#111111;font-family:'JetBrains Mono Variable', ui-monospace, monospace;font-size:11px;line-height:1.35;transform:rotate(-1.5deg);box-shadow:0 2px 4px rgb(0 0 0 / .3)}.ds-verify{font-size:.62em;font-weight:700;letter-spacing:.08em;vertical-align:.25em;padding:.1em .4em;margin-inline:.15em;border:1px solid currentColor;border-radius:2px;opacity:.85;white-space:nowrap}"
+    },
+    {
+      "name": "Paper Bill",
+      "kind": "card",
+      "refersTo": "paper-bill",
+      "description": "The essay carrier: era paper and ink, fibre texture, torn top and bottom by mask, a hair off square.",
+      "html": "<div class=\"ds-bill\"><p><span class=\"ds-drop\">B</span>y the mid-1970s the sleeve was a second stage: Lemi Ghariokwu painted the arguments the songs were making.</p></div>",
+      "css": ".ds-bill{max-width:560px;padding:44px 32px;background:#f2e6c9;color:#2b1a10;font-family:'Literata Variable', Georgia, serif;font-size:18px;line-height:1.68;transform:rotate(-.35deg);-webkit-mask-image:url(\"data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 40' preserveAspectRatio='none'><path d='M6 0H394L398 4L392 9L399 14L393 19L398 25L391 30L397 35L394 40H6L2 36L8 31L1 26L7 21L2 15L9 10L3 5Z'/></svg>\"),linear-gradient(#000,#000),url(\"data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 40' preserveAspectRatio='none'><path d='M6 0H394L398 4L392 9L399 14L393 19L398 25L391 30L397 35L394 40H6L2 36L8 31L1 26L7 21L2 15L9 10L3 5Z'/></svg>\");mask-image:url(\"data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 40' preserveAspectRatio='none'><path d='M6 0H394L398 4L392 9L399 14L393 19L398 25L391 30L397 35L394 40H6L2 36L8 31L1 26L7 21L2 15L9 10L3 5Z'/></svg>\"),linear-gradient(#000,#000),url(\"data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 40' preserveAspectRatio='none'><path d='M6 0H394L398 4L392 9L399 14L393 19L398 25L391 30L397 35L394 40H6L2 36L8 31L1 26L7 21L2 15L9 10L3 5Z'/></svg>\");-webkit-mask-size:100% 22px,100% calc(100% - 42px),100% 22px;mask-size:100% 22px,100% calc(100% - 42px),100% 22px;-webkit-mask-position:top,center,bottom;mask-position:top,center,bottom;-webkit-mask-repeat:no-repeat;mask-repeat:no-repeat}.ds-bill p{margin:0}.ds-drop{float:left;margin:.04em .08em 0 0;font-family:'Londrina Solid','Arial Black',sans-serif;font-weight:900;font-size:4.2em;line-height:.8}"
+    },
+    {
+      "name": "Timeline Rail",
+      "kind": "nav",
+      "refersTo": "timeline-rail (custom; no frontmatter token)",
+      "description": "Desktop rail: torn era strips at measured year positions; inactive strips slide out and tilt, the active one sits flush.",
+      "html": "<nav class=\"ds-rail\" aria-label=\"Timeline\"><a href=\"#\" class=\"ds-strip\" style=\"background:#2b1a10;color:#f2e6c9\" aria-current=\"true\"><b>1970</b><span>Afrobeat</span></a><a href=\"#\" class=\"ds-strip\" style=\"background:#4b2a6b;color:#f5e9d3\"><b>1980</b><span>Jùjú</span></a><a href=\"#\" class=\"ds-strip\" style=\"background:#0a0a0a;color:#ffffff\"><b>1997</b><span>CD era</span></a></nav>",
+      "css": ".ds-rail{display:flex;flex-direction:column;gap:4px;width:116px;padding:16px 12px 16px 36px;background:color-mix(in srgb,#3b3833 82%,black)}.ds-strip{display:flex;flex-direction:column;justify-content:space-between;height:110px;padding:8px 6px;font-family:'JetBrains Mono Variable', ui-monospace, monospace;text-decoration:none;transform:translateX(34%) rotate(2.5deg);opacity:.62;transition:transform 600ms cubic-bezier(.16,1,.3,1),opacity 400ms}.ds-strip b{font-size:11px}.ds-strip span{writing-mode:vertical-rl;transform:rotate(180deg);font-size:10px;letter-spacing:.04em;text-transform:uppercase}.ds-strip:hover,.ds-strip:focus-visible,.ds-strip[aria-current]{transform:none;opacity:1}.ds-strip:focus-visible{outline:2px solid #c8321e;outline-offset:3px}"
+    },
+    {
+      "name": "Vinyl Nav",
+      "kind": "nav",
+      "refersTo": "vinyl-nav",
+      "description": "Mobile chrome: a pill holding a record that spins with scroll progress, plus the current era label.",
+      "html": "<button class=\"ds-vnav\"><span class=\"ds-vdisc\"></span>1970s</button>",
+      "css": ".ds-vnav{display:flex;align-items:center;gap:10px;padding:5px 14px 5px 5px;border:0;border-radius:999px;background:#111111;color:#f3ebdd;font-family:'JetBrains Mono Variable', ui-monospace, monospace;font-size:11px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;box-shadow:0 6px 18px -8px rgb(0 0 0 / .6);cursor:pointer}.ds-vdisc{width:34px;height:34px;border-radius:50%;background:radial-gradient(circle,#111111 0 7%,#c8321e 8% 30%,#0c0c0c 31%),repeating-radial-gradient(circle,#151515 0 1px,#262626 1.5px 2px);transition:transform 600ms cubic-bezier(.16,1,.3,1)}.ds-vnav:hover .ds-vdisc{transform:rotate(90deg)}.ds-vnav:focus-visible{outline:2px solid #c8321e;outline-offset:3px}"
+    },
+    {
+      "name": "Closing Bill",
+      "kind": "card",
+      "refersTo": "closing-bill",
+      "description": "The last bill on the wall: label-red-ink ground, paper text, torn top and bottom.",
+      "html": "<section class=\"ds-closing\"><h2>Go and listen.</h2><p>Every sleeve here is a door into a record.</p></section>",
+      "css": ".ds-closing{padding:56px 40px;background:#a8281a;color:#f3ebdd;font-family:'Literata Variable', Georgia, serif;-webkit-mask-image:url(\"data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 40' preserveAspectRatio='none'><path d='M6 0H394L398 4L392 9L399 14L393 19L398 25L391 30L397 35L394 40H6L2 36L8 31L1 26L7 21L2 15L9 10L3 5Z'/></svg>\"),linear-gradient(#000,#000),url(\"data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 40' preserveAspectRatio='none'><path d='M6 0H394L398 4L392 9L399 14L393 19L398 25L391 30L397 35L394 40H6L2 36L8 31L1 26L7 21L2 15L9 10L3 5Z'/></svg>\");mask-image:url(\"data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 40' preserveAspectRatio='none'><path d='M6 0H394L398 4L392 9L399 14L393 19L398 25L391 30L397 35L394 40H6L2 36L8 31L1 26L7 21L2 15L9 10L3 5Z'/></svg>\"),linear-gradient(#000,#000),url(\"data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 40' preserveAspectRatio='none'><path d='M6 0H394L398 4L392 9L399 14L393 19L398 25L391 30L397 35L394 40H6L2 36L8 31L1 26L7 21L2 15L9 10L3 5Z'/></svg>\");-webkit-mask-size:100% 26px,100% calc(100% - 50px),100% 26px;mask-size:100% 26px,100% calc(100% - 50px),100% 26px;-webkit-mask-position:top,center,bottom;mask-position:top,center,bottom;-webkit-mask-repeat:no-repeat;mask-repeat:no-repeat}.ds-closing h2{margin:0 0 16px;font-size:48px;font-weight:700;line-height:1.02;letter-spacing:-.02em}.ds-closing p{margin:0;font-size:18px;line-height:1.6}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Flyposted Wall",
+    "overview": "Sleeve is a weathered Lagos wall, and fifty years of Nigerian music are pasted onto it one era at a time. The page is a photographed plaster wall (CC0, Poly Haven) knocked back and warmed; every era arrives as a fresh torn sheet pasted over the last, slapped on as you scroll, casting a shadow on the layer beneath. Covers go up as bills, taped at an edge, sitting slightly crooked, abutting each other the way wild posting does. The interface itself recedes into the carrier: the timeline is a column of torn strips on a measured year scale, captions are paper tags, the closing is a red bill.\n\nThe system has two layers that never trade places. The **wall and its chrome** (vinyl, paper, label red, plaster, packing tape, JetBrains Mono, Literata) stay constant from the first viewport to the colophon. The **era layers** each own a pinned token set (background, foreground, muted, three accents, paper, ink, display face, texture) and re-skin identical geometry: title card, essay bill, spotlight, crate, printer's proof. Era identity comes from tokens, never from new layout. The wordmark shows the mechanism in the first viewport: \"SLEEVE\" is six torn scraps, each set in a different era's lettering.\n\nDensity is generous and editorial: long Literata essays on fibre-textured paper, every claim sitting beside the sleeve that proves it. Motion is physical and short: scraps slap on, the fan spreads, layers paste down, records slide out. Rejected by the brief and absent from the build: a dark parallax timeline with a centred hero, purple gradients, cards inside cards, Inter.",
+    "keyCharacteristics": [
+      "A photographed plaster wall as the page ground; copy on the bare wall is dark ink.",
+      "Each era is one torn, pasted layer overlapping the previous by 64px.",
+      "Pinned per-era tokens re-skin fixed geometry; base tokens dress chrome only.",
+      "Torn-edge masks instead of rounded corners; the only round things are records.",
+      "Small, deliberate rotations on everything pasted; nothing sits square.",
+      "JetBrains Mono for anything a record label would print; Literata narrates."
+    ],
+    "rules": [
+      {
+        "name": "The Era Owns Its Layer Rule",
+        "body": "Inside an era layer, every surface and text colour comes from that era's tokens. Base tokens appear only on the wall, the chrome, crate tags and the printer's proof. An era never borrows another era's colour, except in the wordmark scraps and the Terms bills, which exist to show eras side by side.",
+        "section": "colors"
+      },
+      {
+        "name": "The Dark Ink On Plaster Rule",
+        "body": "The wall is a mid-tone photograph, so copy set on the bare wall is `vinyl`. Longer passages go on a pasted paper sheet, never straight onto the texture.",
+        "section": "colors"
+      },
+      {
+        "name": "The Chrome Follows The Era Rule",
+        "body": "The chrome colours (`--chrome-bg/fg/accent`) are registered `<color>` properties that crossfade over 700ms to the active era's bg, fg and accent (Era 5 uses accent-2). Before the first era they are vinyl, paper and label red.",
+        "section": "colors"
+      },
+      {
+        "name": "The Label Printing Rule",
+        "body": "Years, catalogue numerals, credits, sources, navigation and captions are set in JetBrains Mono, as if printed on a record label. Every sleeve carries its catalogue numeral in bold mono.",
+        "section": "typography"
+      },
+      {
+        "name": "The Constant Narrator Rule",
+        "body": "Essays, notes and any running prose are Literata in every era. An era's display face never sets prose beyond the essay's opening drop cap.",
+        "section": "typography"
+      },
+      {
+        "name": "The Honest Flag Rule",
+        "body": "Doubtful facts carry an inline `[VERIFY]` flag: mono 700 at 0.62em, 1px currentColor border, 2px radius, inheriting the surrounding colour. It is visible but never alarming, and it is never coloured red.",
+        "section": "typography"
+      },
+      {
+        "name": "The Paste-Over Rule",
+        "body": "Each era layer overlaps the one before by 64px, has a torn top edge, and stacks one z-index higher. As it enters, it drops in from 56px below and -1.2° (driven by the scroll engine's `--enter`), with a blurred 70px shadow cast on the layer underneath. The wall never scrolls past an era it hasn't covered.",
+        "section": "layout"
+      },
+      {
+        "name": "The Still Geometry Rule",
+        "body": "Every era uses the same layout skeleton. Tokens re-skin it; eras never get bespoke layouts.",
+        "section": "layout"
+      },
+      {
+        "name": "The Paper Not Plastic Rule",
+        "body": "Shadows are soft, warm and short, matching paper on plaster. Lift belongs to sleeves on hover, the record and the dialog.",
+        "section": "elevation"
+      },
+      {
+        "name": "The Torn Edge Rule",
+        "body": "Paper sheets get a torn mask, never a border-radius. Round is reserved for vinyl.",
+        "section": "shapes"
+      },
+      {
+        "name": "The Nothing Sits Square Rule",
+        "body": "Everything pasted carries a small rotation, alternating direction: bills about -0.35°, sheets ±0.6–0.8°, proofs and tags ±1.5–1.8°, the tape -1.4°, scraps up to ±5.5°, crate items a sine-varied ±0.9° with ±6px drift. Rotation stays under ~2.5° on anything that carries prose.",
+        "section": "shapes"
+      }
+    ],
+    "dos": [
+      "Do set every era surface from its `--era-*` tokens and let identical geometry carry it (The Still Geometry Rule).",
+      "Do paste each new era as a torn layer overlapping the last by 64px, with the cast shadow beneath (The Paste-Over Rule).",
+      "Do use torn SVG masks for paper edges, scaled to sheet size (8–44px).",
+      "Do give pasted elements a small alternating rotation, kept under ~2.5° on anything carrying prose.",
+      "Do set years, catalogue numerals, credits, captions and nav in JetBrains Mono, and all prose in Literata.",
+      "Do put copy on the bare wall in vinyl ink, and longer copy on a pasted paper sheet.",
+      "Do keep each essay claim beside the sleeve that proves it (168px proof beside the paragraph).",
+      "Do show missing art as the era-styled placeholder frame, and missing credits as \"Credit to be confirmed\" with a `[VERIFY]` flag.",
+      "Do hold WCAG AA in every era; tint a pinned colour (as with Era 3's `#6a93ff`) rather than drop it."
+    ],
+    "donts": [
+      "Don't round the corners of paper; round is for records and the vinyl-nav pill only.",
+      "Don't give an era a bespoke layout or let it borrow another era's colours or face outside the wordmark and Terms.",
+      "Don't set prose in an era display face, or use Inter anywhere.",
+      "Don't use purple gradients, cards inside cards, or a stock centred hero.",
+      "Don't trace, redraw or imitate a real cover in a placeholder.",
+      "Don't drive scroll-linked motion with anything but transform and opacity.",
+      "Don't set long copy straight onto the plaster texture."
+    ]
+  }
+}
